@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang='zh'>
+<head>
+	<meta charset="UTF-8">
+	<title>爱情120</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	{%block css %}{%endblock%}
+	<link href="./static/css/reset.css" rel="stylesheet">
+    <link href="./static/css/skin.css?t=1" rel="stylesheet">
+</head>
+
+<body>
+    {# 顶部消息  #}
+	<div class="qw-at">
+		<div class="qw-wrapper qw-clear">
+			<div class="qw-left">
+				<span>028-62526822</span>
+			</div>
+		</div>
+	</div>
+	{# 头部 #}
+	<div class="qw-tabbar">
+        <div class="qw-wrapper qw-clear">
+            <div class="qw-left qw-logo">
+                <a href="./index.html">
+                    <img src="./static/images/logo.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="qw-right">
+                <ul class="qw-g-menu qw-clear">
+                    <li class="qw-g-menu-item">
+                        <a href="./index.html">首页</a>
+                    </li>
+                    <li class="qw-g-menu-item">
+                        <a>服务项目</a>
+                        <span class="qw-g-menu-item-tri"></span>
+                        <div class="qw-g-menu-children">
+                            <ul>
+                                <li>
+                                    <a href="./fw/marriage.html">修复婚姻</a>
+                                </li>
+                                <li>
+                                    <a href="./fw/love.html">挽回爱情</a>
+                                </li>
+                                <li>
+                                    <a href="./fw/affair.html">私人定制</a>
+                                </li>
+                                <li>
+                                    <a href="./fw/the_one.html">恋爱脱单</a>
+                                </li>
+                                <li>
+                                    <a href="./fw/be_pretty.html">女神计划</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="qw-g-menu-item">
+                        <a href="./cases.html">成功案例</a>
+                    </li>
+                    <li class="qw-g-menu-item active">
+                        <a href="./team.html">专家团队</a>
+                    </li>
+                    <li class="qw-g-menu-item">
+                        <a href="./news.html">爱情学院</a>
+                    </li>
+                    <li class="qw-g-menu-item">
+                        <a href="./about.html">品牌实力</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	{# 内容 #}
+
+	{%block content%}{%endblock%}
+
+	{# 尾部  #}
+	<div class="qw-footer">
+		<div class="qw-wrapper qw-clear">
+			<div class="qw-qrcode qw-left">
+				<div class="qw-left">
+					<div class="qw-ft-title">微信公众号</div>
+					<img src="./static/images/temp/qr_weixin_mp.png">
+				</div>
+				<div class="qw-left">
+					<div class="qw-ft-title">新浪微博</div>
+					<img src="./static/images/temp/qr_weibo.png">
+				</div>
+			</div>
+			<div class="qw-left qw-ft-navigation">
+				<div class="qw-ft-title">快速链接</div>
+				<ul class="qw-clear qw-ft-menu">
+					<li>
+						<a href="./about.html">关于我们</a>
+					</li>
+					<li>
+						<a href="./fw/marriage.html">修复婚姻</a>
+					</li>
+					<li>
+						<a href="./team.html">专家团队</a>
+					</li>
+					<li>
+						<a href="./fw/love.html">挽回爱情</a>
+					</li>
+
+					<li>
+						<a href="./fw/affair.html">私人订制</a>
+					</li>
+					<li>
+						<a href="./cases.html">成功案例</a>
+					</li>
+					<li>
+						<a href="./fw/the_one.html">恋爱脱单</a>
+					</li>
+					<li>
+						<a href="./news.html">爱情学院</a>
+					</li>
+					<li>
+						<a href="./fw/be_pretty.html">女神计划</a>
+					</li>
+				</ul>
+			</div>
+			<div class="qw-ft-contact qw-left">
+				<div class="qw-ft-title">成都爱情一二零教育咨询有限公司</div>
+				<p>地址：成都市高新区交子大道300号环汇商业广场M4栋2402
+					<br> 电话：028-62526822
+					<br> 邮箱：314550886@qq.com
+				</p>
+			</div>
+		</div>
+	</div>
+	{# 底部通知 #}
+	<div class="qw-copyright">COPYRIGHT ©2018 爱情120版权所有. 粤ICP备17039291号-1</div>
+	 {# 脚本 #}
+	<script src="./static/js/lib/jquery.min.js"></script>
+	<script src="./static/js/lib/jquery.extend.min.js"></script>
+	<script src="./static/js/lib/tmd.js?t=2"></script>
+	{% block script %}
+		
+	{% endblock %}
+</body>
+
+</html>
