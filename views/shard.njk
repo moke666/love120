@@ -7,9 +7,9 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="format-detection" content="telephone=no">
+	<link href="/static/css/reset.css" rel="stylesheet">
+    <link href="/static/css/skin.css?t=1" rel="stylesheet">
 	{%block css %}{%endblock%}
-	<link href="./static/css/reset.css" rel="stylesheet">
-    <link href="./static/css/skin.css?t=1" rel="stylesheet">
 </head>
 
 <body>
@@ -25,15 +25,15 @@
 	<div class="qw-tabbar">
         <div class="qw-wrapper qw-clear">
             <div class="qw-left qw-logo">
-                <a href="./index.html">
-                    <img src="./static/images/logo.jpg" alt="">
+                <a href="/index.html">
+                    <img src="/static/images/logo.jpg" alt="">
                 </a>
             </div>
 
             <div class="qw-right">
                 <ul class="qw-g-menu qw-clear">
                     <li class="qw-g-menu-item">
-                        <a href="./index.html">首页</a>
+                        <a href="/index.html">首页</a>
                     </li>
                     <li class="qw-g-menu-item">
                         <a>服务项目</a>
@@ -41,34 +41,32 @@
                         <div class="qw-g-menu-children">
                             <ul>
                                 <li>
-                                    <a href="./fw/marriage.html">修复婚姻</a>
+                                    <a href="/fw/love.html">情感挽回</a>
                                 </li>
                                 <li>
-                                    <a href="./fw/love.html">挽回爱情</a>
+                                    <a href="/fw/the_one.html">恋爱脱单</a>
                                 </li>
                                 <li>
-                                    <a href="./fw/affair.html">私人定制</a>
+                                    <a href="/fw/marriage.html">婚姻修护</a>
                                 </li>
                                 <li>
-                                    <a href="./fw/the_one.html">恋爱脱单</a>
+                                    <a href="/fw/affair.html">情感急救</a>
                                 </li>
                                 <li>
-                                    <a href="./fw/be_pretty.html">女神计划</a>
+                                    <a href="/fw/be_pretty.html">私人订制</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li class="qw-g-menu-item">
-                        <a href="./cases.html">成功案例</a>
-                    </li>
+                   
                     <li class="qw-g-menu-item active">
-                        <a href="./team.html">专家团队</a>
+                        <a href="/team.html">专家团队</a>
                     </li>
                     <li class="qw-g-menu-item">
-                        <a href="./news.html">爱情学院</a>
+                        <a href="/news.html">在线咨询</a>
                     </li>
                     <li class="qw-g-menu-item">
-                        <a href="./about.html">品牌实力</a>
+                        <a href="/about.html">品牌实力</a>
                     </li>
                 </ul>
             </div>
@@ -84,43 +82,43 @@
 			<div class="qw-qrcode qw-left">
 				<div class="qw-left">
 					<div class="qw-ft-title">微信公众号</div>
-					<img src="./static/images/temp/qr_weixin_mp.png">
+					<img src="/static/images/temp/qr_weixin_mp.png">
 				</div>
 				<div class="qw-left">
 					<div class="qw-ft-title">新浪微博</div>
-					<img src="./static/images/temp/qr_weibo.png">
+					<img src="/static/images/temp/qr_weibo.png">
 				</div>
 			</div>
 			<div class="qw-left qw-ft-navigation">
 				<div class="qw-ft-title">快速链接</div>
 				<ul class="qw-clear qw-ft-menu">
 					<li>
-						<a href="./about.html">关于我们</a>
+						<a href="/about.html">关于我们</a>
 					</li>
 					<li>
-						<a href="./fw/marriage.html">修复婚姻</a>
+						<a href="/fw/marriage.html">修复婚姻</a>
 					</li>
 					<li>
-						<a href="./team.html">专家团队</a>
+						<a href="/team.html">专家团队</a>
 					</li>
 					<li>
-						<a href="./fw/love.html">挽回爱情</a>
+						<a href="/fw/love.html">挽回爱情</a>
 					</li>
 
 					<li>
-						<a href="./fw/affair.html">私人订制</a>
+						<a href="/fw/affair.html">私人订制</a>
 					</li>
 					<li>
-						<a href="./cases.html">成功案例</a>
+						<a href="/cases.html">成功案例</a>
 					</li>
 					<li>
-						<a href="./fw/the_one.html">恋爱脱单</a>
+						<a href="/fw/the_one.html">恋爱脱单</a>
 					</li>
 					<li>
-						<a href="./news.html">爱情学院</a>
+						<a href="/news.html">爱情学院</a>
 					</li>
 					<li>
-						<a href="./fw/be_pretty.html">女神计划</a>
+						<a href="/fw/be_pretty.html">女神计划</a>
 					</li>
 				</ul>
 			</div>
@@ -136,9 +134,9 @@
 	{# 底部通知 #}
 	<div class="qw-copyright">COPYRIGHT ©2018 爱情120版权所有. 粤ICP备17039291号-1</div>
 	 {# 脚本 #}
-	<script src="./static/js/lib/jquery.min.js"></script>
-	<script src="./static/js/lib/jquery.extend.min.js"></script>
-	<script src="./static/js/lib/tmd.js?t=2"></script>
+	<script src="/static/js/lib/jquery.min.js"></script>
+	<script src="/static/js/lib/jquery.extend.min.js"></script>
+	<script src="/static/js/lib/tmd.js?t=2"></script>
 	{% block script %}
 		
 	{% endblock %}
