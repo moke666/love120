@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*CSS Document*/
+/*首页*/
+
+.qw-at{
+    background-color: #f8f8f8;
+}
+
+.qw-home-feedback{
+    padding-bottom: 60px;
+}
+
+.qw-service-grids .qw-service-item{
+    padding-top: 40px;
+}
+
+.qw-home-service{
+    background-color: #f8f8f8;
+}
+.qw-home-feedback-main{
+    width: 500px;
+}
+
+
+
+.qw-home-honor-list .qw-home-honor-item{
+    width: 285px;
+}
+
+.qw-home-feedback-item .qw-home-feedback-main{
+    width: 300px;
+}
+
+.qw-right {
+    float: right;
+    padding-left: 20px;
+}
+
+/*团队*/
+
+.qw-banner-team{
+    height: 400px;
+}
+
+/*关于我们*/
+
+.qw-about .bar4 .view{
+    height: 850px;
+}
+
+.qw-about .bar2 .view{
+    height: 420px;
+    background-color: #f7efed;
+}
+
+.qw-about .bar3 .bg{
+    background:url('../images/about/about_bg.jpg') no-repeat center bottom;
+    height: 500px;
+}
+
+.qw-about .bar5{
+    height: 860px;
+    
+    padding: 10px 0px 30px 0px;
+}
+
+.qw-about .banner .view{
+    background: url('../images/about/ab_banner.jpg') no-repeat center;
+}
+
+.qw-about .bar4{
+    height: 1200px;
+}
+
+

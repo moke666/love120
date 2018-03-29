@@ -1,0 +1,487 @@
+/* 主体内容 */
+*{
+	font-family: "微软雅黑";
+}
+body{
+	overflow-x: hidden;
+}
+/* 轮播图 */
+.qw-theone-banner{
+	position: relative;
+}
+.qw-not-single .qw-theone-view{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.qw-not-single .qw-theone-view img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	height: 400px;
+}
+.qw-not-single .qw-wave{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom:0;
+}
+.qw-not-single .qw-wave img{
+	position: absolute;
+	bottom: -150px;;
+	left: 50%;
+	margin-left: -960px;
+}
+/* 团队优势 */
+.qw-not-single .qw-home-advantage{
+	background: url(../../images/services/the_one/c_01_bg.jpg);
+}
+.qw-not-single .qw-advantage-listbox{
+	padding-top: 100px;
+	padding-bottom: 74px;
+}
+.qw-not-single .qw-advantage-list{
+	height: 157px;
+	overflow: hidden;
+}
+.qw-not-single .qw-advantage-item{
+	float: left;
+	width: 33.3333%;
+	height: 157px;
+	position: relative;
+}
+.qw-not-single .qw-advantage-item img{
+	width: 249px;
+	height: 157px;
+	display: block;
+	margin: auto;
+}
+/* 视频 */
+.qw-not-single .qw-home-video{
+	background: url(../../images/services/the_one/c_02_bg.jpg);
+}
+.qw-not-single .qw-video-demo{
+	width: 100%;
+	height: 504px;
+	padding-bottom: 217px;
+	display:none;
+}
+.qw-not-single .qw-video-demo img{
+	width: 100%;
+	display: block;
+}
+/* 导师语录 */
+.qw-not-single .qw-home-ana{
+	background: url(../../images/services/the_one/c_03_bg.jpg) no-repeat;
+	background-size: 100% auto;
+	height: 340px;
+	position: relative;
+	display:none;
+}
+.qw-not-single .qw-ana-content{
+	width: 1096px;
+	height: 388px;
+	position: absolute;
+	bottom: 106px;
+}
+.qw-not-single .qw-ana-content img{
+	width: 100%;
+	display: block;
+}
+/* 单身症结 */
+.qw-not-single .qw-home-symptom{
+	background: #fff;
+}
+.qw-not-single .qw-symptom-title{
+	width: 714px;
+	height: 63px;
+	margin: auto;
+	padding-top: 134px;
+}
+.qw-not-single .qw-symptom-title img{
+	width: 100%;
+	display: block;
+}
+.qw-not-single .qw-symptom-listbox{
+	padding-top: 86px;
+}
+.qw-not-single .qw-symptom-list{
+	overflow: hidden;
+	height: 481px;
+}
+.qw-not-single .qw-symptom-item{
+	width: 33.3333%;
+	height: 481px;
+}
+.qw-not-single .qw-symptom-item .qw-item-pic{
+	width: 207px;
+	height: 224px;
+	display: block;
+	margin: auto;
+}
+.qw-not-single .qw-symptom-item .qw-item-title{
+	display: block;
+	font-size: 20px;
+	color: #1b1b1b;
+	line-height: 20px;
+	padding-top: 48px;
+	text-align: center;
+}
+.qw-not-single .qw-symptom-item .qw-item-line{
+	width: 34px;
+	height: 3px;
+	background: #6cacf5;
+	margin: auto;
+	margin-top: 20px;
+}
+.qw-not-single .qw-symptom-item .qw-item-passage{
+	display: block;
+	width: 210px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+	color: #1b1b1b;
+	margin: auto;
+	padding-top: 24px;
+}
+.qw-not-single .qw-symptom-item .qw-item-sublist{
+	width: 280px;
+	height: 51px;
+	margin: auto;
+	margin-top: 31px;
+	background: #fff;
+}
+.qw-not-single .qw-symptom-item .qw-item-subitem{
+	width: 56px;
+	height: 51px;
+	text-align: center;
+	position: relative;
+}
+.qw-not-single .qw-symptom-item .qw-subitem-font{
+	display: block;
+	font-size: 13px;
+	line-height: 17px;
+	color: #1b1b1b;
+	padding-top: 8px;
+}
+.qw-not-single .qw-symptom-item .qw-subitem-right-line{
+	width: 55px;
+	height: 31px; 
+	border-right: 1px solid #959595;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.qw-not-single .qw-symptom-item:hover .qw-item-sublist{
+	background-color: #e83457;
+	color:#fff;
+}
+.qw-not-single .qw-symptom-item:hover .qw-item-sublist .qw-subitem-right-line{
+	border-color:#fff;
+}
+.qw-not-single .qw-symptom-item:hover .qw-item-sublist .qw-subitem-font{
+	color:#fff;
+}
+/* 扫除障碍 */
+.qw-not-single .qw-home-scheme{
+	background: #fff;
+}
+.qw-not-single .qw-scheme-wrapper{
+	width: 1224px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+.qw-not-single .qw-scheme-tittle{
+	width: 714px;
+	height: 63px;
+	margin: auto;
+	padding-top: 112px;
+}
+.qw-not-single .qw-scheme-tittle img{
+	width: 100%;
+	display: block;
+}
+.qw-not-single .qw-scheme-listbox{
+	padding-top: 80px;
+}
+.qw-not-single .qw-scheme-list{
+	overflow: hidden;
+	height: 425px;
+}
+.qw-not-single .qw-scheme-item{
+	width: 306px;
+	height: 425px;
+	background: #fff;
+}
+.qw-not-single .qw-scheme-item-wrapper{
+	width: 254px;
+	margin: auto;
+}
+.qw-not-single .qw-scheme-item-tt-pic{
+	display: block;
+	width: 134px;
+	height: 134px;
+	margin: auto;
+	padding-top: 40px;
+}
+.qw-not-single .qw-scheme-item-tt{
+	display: block;
+	height: 19px;
+	font-size: 19px;
+	color: #1b1b1b;
+	line-height: 19px;
+	text-align: center;
+	padding-top: 38px;
+}
+.qw-not-single .qw-scheme-item-p{
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666666;
+	padding-top: 26px;
+}
+.qw-not-single .qw-scheme-item-ft-pic{
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: auto;
+	padding-top: 30px;
+}
+/* 二维码 */
+.qw-not-single .qw-home-code{
+	width: 100%;
+	display:none;
+}
+.qw-not-single .qw-home-code img{
+	width: 100%;
+}
+
+/* 问答社区 */
+.qw-not-single .qw-home-nav-bbs{
+	background: #fff
+}
+.qw-not-single .qw-nav-bbs-wrapper{
+	width: 1144px;
+	margin: auto;
+}
+.qw-not-single .qw-nav-bbs-title{
+	width: 714px;
+	height: 63px;
+	margin: auto;
+	padding-top: 125px;
+}
+.qw-not-single .qw-nav-bbs-title img{
+	width: 100%;
+	display: block;
+}
+.qw-nav-bbs-column{
+	overflow: hidden;
+	margin-top: 66px;
+	margin-bottom: 112px;
+}
+.qw-not-single .qw-nav-bbs-left-part{
+	position: relative;
+}
+.qw-not-single .qw-nav-bbs-right-part{
+	position: relative;
+}
+.qw-not-single .qw-nav-bbs-left-part,.qw-not-single .qw-nav-bbs-right-part{
+	background: url(../../images/services/the_one/c_07_bg.png);
+	width: 572px;
+	height: 423px;
+}
+.qw-not-single .qw-left-content-box,.qw-right-content-box{
+	width: 536px;
+	height: 387px;
+	margin-top: 15px;
+	margin-left: 12px;
+}
+.qw-not-single .qw-content-box-inside{
+	width: 456px;
+	margin: auto;
+}
+.qw-not-single .qw-bbs-list{
+	
+}
+.qw-not-single .qw-bbs-item{
+	width: 100%;
+	height: 82px;
+	padding-top: 34px;
+}
+.qw-not-single .qw-bbs-item-left{
+	width: 146px;
+	height: 82px;
+	overflow: hidden;
+}
+.qw-not-single .qw-bbs-item-left img{
+	display: block;
+	width: 100%;
+}
+.qw-not-single .qw-bbs-item-right{
+	margin-left: 28px;
+	width: 282px;
+	height: 82px;
+}
+.qw-not-single .qw-bbs-item-title{
+	width: 100%;
+	height: 35px;
+}
+.qw-not-single .qw-bbs-item-detail{
+	line-height: 44px;
+	font-size: 18px;
+	color: #333333;
+	display: block;
+	height: 44px;
+	    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.qw-not-single .qw-read-record-icon,.qw-not-single .qw-read-record,
+.qw-not-single .qw-like-record-icon,.qw-not-single .qw-like-record{
+	vertical-align: middle;
+}
+.qw-not-single .qw-bbs-item-icon-record{
+	width: 100%;
+	height: 27px;
+	display: block;
+	padding-top: 10px;
+}
+.qw-not-single .qw-read-record-icon{
+	width: 18px;
+	height: 14px;
+}
+.qw-not-single .qw-read-record{
+	padding-left: 7px;
+}
+.qw-not-single .qw-like-record-icon{
+	padding-left: 16px;
+	width: 13px;
+	height: 14px;
+}
+.qw-not-single .qw-like-record{
+	padding-left: 7px;
+}
+.qw-not-single .qw-read-record,.qw-like-record{
+	font-size: 14px;
+	color: #c1c1c1;
+}
+.qw-not-single .qw-qanda-list{
+	padding-top: 30px;
+}
+.qw-not-single .qw-qanda-item{
+	width: 100%;
+	height: 102px;
+	margin-bottom: 12px;
+}
+.qw-not-single .qw-qanda-item-top{
+	width: 100%;
+	height: 31px;
+}
+.qw-not-single .qw-icon-anonymity{
+	width: 31px;
+	height: 31px;
+	display: block;
+}
+.qw-not-single .qw-qanda-item-q{
+	width: 386px;
+	font-size: 16px;
+	color: #333333;
+	line-height: 31px;
+	vertical-align: middle;
+	display: block;
+	margin-left: 10px;
+}
+.qw-not-single .qw-qanda-item-bottom{
+	width: 100%;
+	height: 66px;
+	margin-top: 12px;
+}
+.qw-not-single .qw-qanda-bottom-icon{
+	width: 31px;
+	height: 66px;
+}
+.qw-not-single .qw-qanda-bottom-icon .qw-icon-portrait{
+	width: 31px;
+	height: 31px;
+	display: block;
+}
+.qw-not-single .qw-qanda-bottom-a{
+	width: 386px;
+	height: 52px;
+	margin-left: 10px;
+	padding-bottom: 13px;
+}
+.qw-not-single .qw-qanda-a-content{
+	font-size: 14px;
+	color: #999999;
+	line-height: 24px;
+	vertical-align: middle;
+
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+.qw-not-single .qw-home-nav-bbs p,
+.qw-not-single .qw-home-nav-bbs h3{
+	transform: translate(0,0);
+	transition: all 0.47s ease-in 0s;
+}
+.qw-not-single .qw-home-nav-bbs p:hover{
+	transition: 0.47s;
+	cursor: pointer;
+	color: #f29ca4;
+}
+.qw-not-single .qw-home-nav-bbs h3:hover{
+	transition: 0.47s;
+	cursor: pointer;
+	color: #f29ca4;
+}
+.qw-not-single .qw-bbs-page-turning-list{
+	margin-top: 6px;
+	display:none;
+}
+.qw-not-single .qw-bbs-page-turning-item{
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	margin-left: 4px;
+}
+.qw-not-single .qw-bbs-page-turning-item img{
+	width: 100%;
+	display: block;
+}
+/* 品牌实力 */
+.qw-not-single .qw-home-strength{
+	background: url(../../images/services/the_one/c_08_bg.png) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 449px;
+}
+.qw-not-single .qw-strength-left{
+	width: 513px;
+	height: 287px;
+	padding-top: 87px;
+}
+.qw-not-single .qw-strength-right{
+	width: 480px;
+	height: 248px;
+	padding-top: 110px;
+	margin-right: 50px;
+}
+.qw-not-single .qw-strength-left img,
+.qw-not-single .qw-strength-right img{
+	width: 100%;
+	display: block;
+}
+.qw-not-single .qw-strength-right p{
+	color:#fff;
+	font-size:14px;
+	line-height:24px;
+	margin-top:20px;
+}
+.qw-not-single .qw-strength-right img{
+	position: relative;
+}

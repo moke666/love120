@@ -1,5 +1,12 @@
 {% extends "./views/shard.njk" %}
-{% block content %}
+{%block css %}
+    <link rel="stylesheet" type="text/css" href="../static/css/services/be_pretty.css" />
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/index233.css">
+{% endblock %}
+{%block content%}
+<div class="qw-container qw-border-top">
+
         <!-- 内容 -->
         <div class="qw-container qw-goddess">
             <!-- 轮播图 -->
@@ -157,48 +164,7 @@
                     </div>
                 </div>
             </div>
-            <!-- 收货好评 -->
-            <div class="qw-home-reputation">
-                <div class="qw-wrapper">
-                    <div class="qw-reputation-title">
-                        <img src="../static/images/be_pretty/c_05_00.png">
-                    </div>
-                    <div class="qw-reputation-content qw-clear">
-                        <div class="qw-reputation-left qw-left">
-                            <ul class="qw-reputation-list">
-                                <li class="qw-reputation-item qw-clear">
-                                    <img class="qw-reputation-item-portrait qw-left" src="../static/images/be_pretty/c_05_022.png">
-                                    <img class="qw-reputation-item-passage qw-left" src="../static/images/be_pretty/c_05_02.png">
-                                </li>
-                                <li class="qw-reputation-item qw-clear">
-                                    <img class="qw-reputation-item-portrait qw-left" src="../static/images/be_pretty/c_05_03.png">
-                                    <img class="qw-reputation-item-passage qw-left" src="../static/images/be_pretty/c_05_04.png">
-                                </li>
-                                <li class="qw-reputation-item qw-clear">
-                                    <img class="qw-reputation-item-portrait qw-left" src="../static/images/be_pretty/c_05_023.png">
-                                    <img class="qw-reputation-item-passage qw-left" src="../static/images/be_pretty/c_05_06.png">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="qw-reputation-right qw-right">
-                            <ul class="qw-reputation-list">
-                                <li class="qw-reputation-item qw-clear">
-                                    <img class="qw-reputation-item-portrait qw-left" src="../static/images/be_pretty/c_05_07.png">
-                                    <img class="qw-reputation-item-passage qw-left" src="../static/images/be_pretty/c_05_08.png">
-                                </li>
-                                <li class="qw-reputation-item qw-clear">
-                                    <img class="qw-reputation-item-portrait qw-left" src="../static/images/be_pretty/c_05_024.png">
-                                    <img class="qw-reputation-item-passage qw-left" src="../static/images/be_pretty/c_05_10.png">
-                                </li>
-                                <li class="qw-reputation-item qw-clear">
-                                    <img class="qw-reputation-item-portrait qw-left" src="../static/images/be_pretty/c_05_025.png">
-                                    <img class="qw-reputation-item-passage qw-left" src="../static/images/be_pretty/c_05_12.png">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
 
             <script src="../static/js/services/be_pretty.js"></script>
    {% endblock %}

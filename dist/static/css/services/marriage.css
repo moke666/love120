@@ -1,0 +1,502 @@
+/* 主体内容 */
+*{
+	font-family: "微软雅黑";
+}
+body{
+	overflow-x: hidden;
+}
+/* 轮播图 */
+.qw-marriage-view{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.qw-marriage-view img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	height: 400px;
+}
+/* 离婚统计 */
+.qw-home-statistics{
+	width: 100%;
+	background: url(../../images/services/marriage/c_01_bg.jpg);
+	position: relative;
+}
+.qw-home-team-list{
+	padding-top: 60px;
+	width: 100%;
+	height: 185px;
+}
+.qw-home-team-item{
+	width: 33%;
+	height: 185px;
+	float: left;
+}
+.qw-home-team-item .img{
+	width: 100%
+}
+.qw-home-team-item .img img{
+	display: block;
+	margin: auto;
+	width: 240px;
+	height: 122px;
+}
+.qw-home-team-item .qw-home-team-label{
+	display: block;
+	text-align: center;
+	width: 324px;
+	margin: auto;
+	font-size: 17px;
+	color: #999999;
+	margin-top: 20px;
+	line-height: 19px;
+}
+.qw-section-how-why{
+	width: 814px;
+	height: 447px;
+	margin: auto;
+	padding-top: 60px;
+	overflow: hidden;
+}
+.qw-section-how-why img{
+	width: 100%;
+	display: block;
+}
+.qw-statistics-form{
+	width: 100%;
+	height: 722px;
+	overflow: hidden;
+}
+.qw-statistics-form img{
+	width: 100%;
+	display: block;
+}
+/* 婚姻障碍 */
+.qw-home-obstacle-action{
+	width: 100%;
+	background: url(../../images/services/marriage/c_02_bg.jpg);
+	padding-bottom: 40px;
+}
+.qw-obstacle-action-title{
+	width: 1198px;
+	height: 100px;
+}
+.qw-obstacle-action-title img{
+	width: 100%;
+	display: block;
+}
+.qw-action-listbox{
+	width: 1120px;
+	height: 326px;
+	padding-top: 20px;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+}
+.qw-action-list{
+	position: absolute;
+}
+.qw-action-item{
+	float: left;
+	width: 280px;
+	height: 326px;
+}
+.qw-action-item:hover{
+	position: relative;
+	top: -20px;
+}
+.qw-action-item img{
+	width: 100%;
+	height: 326px;
+	display: block;
+}
+.qw-action-listbox-wrapper{
+	position: relative;
+}
+.qw-action-list-control .qw-list-prev,
+.qw-action-list-control .qw-list-next{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+}
+.qw-action-list-control .qw-list-prev{
+	left: -20px;
+}
+.qw-action-list-control .qw-list-next{
+	right: -20px;
+}
+.qw-action-list-control .qw-list-prev img,
+.qw-action-list-control .qw-list-next img{
+	width: 100%;
+	display: block;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	transition: 0.7s;
+}
+.qw-action-list-control .qw-list-prev img:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.qw-action-list-control .qw-list-next img:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+/* 出轨概率 */
+.qw-home-derailment-column{
+	width: 100%;
+	background: url(../../images/services/marriage/c_03_bg.jpg);
+}
+.qw-derailment-column-left{
+	width: 350px;
+	height: 475px;
+	overflow: hidden;
+}
+.qw-derailment-column-left-box{
+	
+}
+.qw-derailment-column-title{
+	width: 350px;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 116px;
+}
+.qw-derailment-column-title h2{
+	font-size: 20px;
+	color: #333333;
+}
+.qw-derailment-column-title h2{
+	font-weight: bold;
+}
+.qw-column-title-line{
+	width: 35px;
+	height: 1px;
+	background: #fb6566;
+	margin-top: 24px;
+}
+.qw-column-subtitle{
+	width: 350px;
+	margin-top: 22px;
+	margin-bottom: 130px;
+}
+.qw-column-subtitle p{
+	text-align: justify;
+	
+	line-height: 26px;
+}
+.qw-derailment-column-right{
+	width: 841px;
+	height: 416px;
+	padding-top: 40px;
+	padding-bottom: 24px;
+}
+.qw-derailment-column-right img{
+	width: 100%;
+	height: 416px;
+	display: block;
+}
+/* 出轨类型 */
+.qw-home-type-kind-column{
+	background: url(../../images/services/marriage/c_04_bg.jpg);
+}
+.qw-type-kind-title{
+	width: 1197px;
+	height: 99px;
+	padding-top: 48px;
+}
+.qw-type-kind-title img{
+	width: 100%;
+	display: block;
+}
+.qw-type-kind-listbox{
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+.qw-type-kind-list{
+	width: 100%;
+}
+.qw-type-kind-item{
+	float: left;
+	width: 25%;
+	overflow: hidden;
+}
+.qw-type-kind-item img{
+	width: 162px;
+	height: 176px;
+	display: block;
+	margin: auto;
+}
+/* 专家分析 */
+.qw-home-expert-column{
+	background: #fff;
+}
+.qw-expert-title{
+	width: 1197px;
+	height: 99px;
+}
+.qw-expert-title .img{
+	width: 100%;
+	display: block;
+}
+.qw-expert-listbox{
+	padding-top: 23px;
+	padding-bottom: 34px;
+}
+.qw-expert-list{
+	width: 100%;
+}
+.qw-expert-item{
+	float: left;
+}
+.qw-expert-item-bg{
+	width: 300px;
+	height: 403px;
+	background: url(../../images/services/marriage/c_05_bg_white.png) no-repeat 0px 47px;
+}
+.qw-expert-item-subbg{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	background: url(../../images/services/marriage/c_05_subbg_purple.png);
+}
+.qw-expert-item-subbg img{
+	width: 140px;
+	height: 140px;
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+}
+.qw-expert-item-subtt{
+	display: block;
+	text-align: center;
+	font-size: 21px;
+	width: 100%;
+	height: 21px;
+	line-height: 21px;
+	padding-top: 25px;
+	color: #333333;
+	font-weight: bold;
+}
+.qw-expert-item-p{
+	display: block;
+	margin: auto;
+	width: 232px;
+	font-size: 16px;
+ 	text-align: justify;
+	line-height: 26px;
+	padding-top: 24px;
+	color: #999999;
+}
+.qw-expert-item:hover div.qw-expert-item-bg{
+	background: url(../../images/services/marriage/c_05_bg_purple.png) no-repeat 0px 47px;
+}
+.qw-expert-item:hover div.qw-expert-item-subbg{
+	background: url(../../images/services/marriage/c_05_subbg_white.png);
+}
+.qw-expert-item:hover span.qw-expert-item-subtt{
+	color: #fff;
+}
+.qw-expert-item:hover p.qw-expert-item-p{
+	color: #fff;
+}
+.qw-expert-column-intersperse{
+	width: 136px;
+	position: absolute;
+	right: -350px;
+	top: -180px;
+}
+.qw-expert-column-intersperse img{
+	display: block;
+	width: 100%;
+}
+/* 客户感谢 */
+.qw-home-client-thank-column{
+	background: url(../../images/services/marriage/c_06_bg.jpg);
+}
+.qw-thank-left-part{
+	width: 794px;
+	margin-top: 46px;
+}
+.qw-thank-left-part img,.qw-thank-right-part img{
+	width: 100%;
+	height: 568px;
+	display: block;
+}
+.qw-thank-left-part img{
+	height: 568px;
+}
+.qw-thank-right-part{
+	width: 342px;
+	height: 652px;
+	background: url(../../images/services/marriage/c_06_02_bg.png)
+}
+.qw-thank-right-part img{
+	display: block;
+	margin: 73px 38px 109px 38px;
+	width: 266px;
+	height: 473px;
+}
+/* 问答社区 */
+.qw-home-nav-bbs{
+	background: url(../../images/services/marriage/c_07_bg.jpg);
+}
+.qw-nav-bbs-title{
+	width: 1197px;
+	height: 77px;
+	padding-top: 32px;
+}
+.qw-nav-bbs-title img{
+	width: 100%;
+	display: block;
+}
+.qw-nav-bbs-left-part,.qw-nav-bbs-right-part{
+	background: url(../../images/services/marriage/c_07_sbg.png);
+	width: 554px;
+	height: 468px;
+	margin-top: 5px;
+	margin-bottom: 22px;
+}
+.qw-nav-bbs-left-part{
+	margin-left: 46px;
+}
+.qw-nav-bbs-right-part{
+	margin-right: 46px;
+}
+.qw-left-content-box,.qw-right-content-box{
+	width: 480px;
+	height: 394px;
+	margin: 35px 37px 39px 37px;
+}
+.qw-content-box-inside{
+	width: 420px;
+	margin: auto;
+}
+.qw-bbs-item{
+	width: 100%;
+	height: 60px;
+	padding-top: 30px;
+}
+.qw-bbs-item-left{
+	width: 90px;
+	height: 60px;
+	overflow: hidden;
+}
+.qw-bbs-item-left img{
+	display: block;
+	width: 100%;
+}
+.qw-bbs-item-right{
+	margin-left: 18px;
+	width: 310px;
+	height: 60px;
+}
+.qw-bbs-item-title{
+	width: 100%;
+	height: 35px;
+}
+.qw-bbs-item-detail{
+	line-height: 35px;
+	font-size: 14px;
+	color: #333333;
+}
+.qw-read-record-icon,.qw-read-record,.qw-like-record-icon,.qw-like-record{
+	vertical-align: middle;
+}
+.qw-bbs-item-icon-record{
+	width: 100%;
+	height: 27px;
+}
+.qw-read-record-icon{
+	width: 18px;
+	height: 14px;
+}
+.qw-read-record{
+	padding-left: 7px;
+}
+.qw-like-record-icon{
+	padding-left: 16px;
+	width: 13px;
+	height: 14px;
+}
+.qw-like-record{
+	padding-left: 7px;
+}
+.qw-read-record,.qw-like-record{
+	font-size: 14px;
+	color: #c1c1c1;
+}
+.qw-qanda-list{
+	padding-top: 30px;
+}
+.qw-qanda-item{
+	width: 100%;
+	height: 102px;
+	margin-bottom: 20px;
+}
+.qw-qanda-item-top{
+	width: 100%;
+	height: 24px;
+}
+.qw-icon-anonymity{
+	width: 24px;
+	height: 24px;
+	display: block;
+}
+.qw-qanda-item-q{
+	width: 386px;
+	font-size: 14px;
+	color: #333333;
+	line-height: 24px;
+	vertical-align: middle;
+	display: block;
+	margin-left: 10px;
+}
+.qw-qanda-item-bottom{
+	width: 100%;
+	height: 66px;
+	margin-top: 12px;
+}
+.qw-qanda-bottom-icon{
+	width: 24px;
+	height: 66px;
+}
+.qw-qanda-bottom-icon .qw-icon-portrait{
+	width: 24px;
+	height: 24px;
+	display: block;
+}
+.qw-qanda-bottom-a{
+	width: 386px;
+	height: 52px;
+	margin-left: 10px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.qw-qanda-a-content{
+	font-size: 14px;
+	color: #999999;
+	line-height: 24px;
+	vertical-align: middle;
+
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+.qw-home-nav-bbs p,.qw-home-nav-bbs h3{
+	transform: translate(0,0);
+	transition: all 0.47s ease-in 0s;
+}
+.qw-home-nav-bbs p:hover{
+	transition: 0.47s;
+	cursor: pointer;
+	color: #6227bc;
+}
+.qw-home-nav-bbs h3:hover{
+	transition: 0.47s;
+	cursor: pointer;
+	color: #6227bc;
+}

@@ -1,0 +1,444 @@
+/* 主体内容 */
+*{
+	font-family: "微软雅黑";
+}
+body{
+	overflow-x: hidden;
+}
+
+/* 轮播图 */
+.qw-resolve-view{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.qw-resolve-view img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	height: 400px;
+}
+/* 团队优势 */
+.qw-resolve-contradictions .qw-home-advantage{
+	width: 100%;
+	background: #fff;
+}
+.qw-resolve-contradictions .qw-advantage-listbox{
+	padding-top: 58px;
+	padding-bottom: 72px;
+}
+.qw-resolve-contradictions .qw-advantage-list{
+	overflow: hidden;
+	height: 186px;
+}
+.qw-resolve-contradictions .qw-advantage-item{
+	width: 33.3333%;
+	height: 186px;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-advantage-item img{
+	width: 322px;
+	height: 186px;
+	margin: auto;
+	display: block;
+}
+
+/* 矛盾种类 */
+.qw-resolve-contradictions .qw-home-mid-banner{
+	background: #fff;
+	height: 590px;
+}
+.qw-resolve-contradictions .qw-mid-banner-title{
+	width: 695px;
+	height: 161px;
+	margin: auto;
+	padding-top: 10px;
+}
+.qw-resolve-contradictions .qw-mid-banner-title img{
+	width: 100%;
+	display: block;
+}
+.qw-resolve-contradictions .qw-mid-banner-listbox-wrapper{
+	position: relative;
+}
+.qw-resolve-contradictions .qw-mid-banner-listbox{
+	padding-top: 25px;
+	padding-bottom: 6px;
+	width: 1200px;
+	height: 357px;
+	position: relative;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-mid-banner-list{
+	position: absolute;
+	height: 357px;
+}
+.qw-resolve-contradictions .qw-mid-banner-item{
+	width: 300px;
+	height: 357px;
+}
+.qw-resolve-contradictions .qw-mid-banner-item img{
+	width: 100%;
+	display: block;
+}
+.qw-resolve-contradictions .qw-mid-banner-prev,
+.qw-resolve-contradictions .qw-mid-banner-next{
+	width: 40px;
+	height: 80px;
+	display: block;
+	position: absolute;
+	top: 40%;
+}
+.qw-resolve-contradictions .qw-mid-banner-prev{
+	cursor:pointer;
+	left: -42px;
+}
+.qw-resolve-contradictions .qw-mid-banner-next{
+	cursor:pointer;
+	right: -42px;
+}
+.qw-resolve-contradictions .qw-mid-banner-prev img,
+.qw-resolve-contradictions .qw-mid-banner-next img{
+	width: 100%;
+	display: block;
+	margin: auto;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	transition: all 0.47s ease-in 0s;
+	transform: scale3d(.5,.5,.5);
+	-webkit-transform: scale3d(.5,.5,.5);
+	-ms-transform: scale3d(.5,.5,.5);
+	-o-transform: scale3d(.5,.5,.5);
+}
+.qw-resolve-contradictions .qw-mid-banner-prev img:hover{
+	transform: scale3d(1,1,1);
+	-webkit-transform: scale3d(1,1,1);
+	-ms-transform: scale3d(1,1,1);
+	-o-transform: scale3d(1,1,1);
+	transition: 0.47s;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.qw-resolve-contradictions .qw-mid-banner-next img:hover{
+	transform: scale3d(1,1,1);
+	-webkit-transform: scale3d(1,1,1);
+	-ms-transform: scale3d(1,1,1);
+	-o-transform: scale3d(1,1,1);
+	transition: 0.47s;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+/* 探究问题 */
+.qw-resolve-contradictions .qw-home-explore{
+	background: #fff;
+	height: 753px;
+}
+.qw-resolve-contradictions .qw-explore-title{
+	width: 446px;
+	height: 136px;
+	margin: auto;
+}
+.qw-resolve-contradictions .qw-explore-title img{
+	width: 100%;
+	display: block;
+}
+.qw-resolve-contradictions .qw-explore-content{
+	padding-top: 26px;
+	padding-bottom: 51px;
+}
+.qw-resolve-contradictions .qw-explore-left{
+	width: 651px;
+	height: 438px;
+	margin-top: 45px;
+	margin-left: -84px;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-explore-left img{
+	width: 100%;
+	display: block;
+}
+.qw-resolve-contradictions .qw-explore-right{
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-explore-list{
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-explore-item{
+	width: 632px;
+	height: 108px;
+}
+.qw-resolve-contradictions .qw-explore-item img{
+	width: 100%;
+	display: block;
+}
+
+
+
+/* 化解矛盾 */
+.qw-resolve-contradictions .qw-home-defuse{
+	background: #fff;
+}
+.qw-resolve-contradictions .qw-defuse-title{
+	width: 805px;
+	height: 158px;
+	margin: auto;
+	padding-top: 14px;
+}
+.qw-resolve-contradictions .qw-defuse-title img{
+	width: 100%;
+	display: block;
+}
+.qw-resolve-contradictions .qw-defuse-listbox{
+	padding-top: 51px;
+	padding-bottom: 78px;
+}
+.qw-resolve-contradictions .qw-defuse-list{
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-defuse-item{
+	width: 300px;
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-defuse-item img{
+	display: block;
+	width: 100%;
+}
+.qw-resolve-contradictions .qw-defuse-item-fix-b{
+	position: absolute;
+	bottom: 0px;
+}
+.qw-resolve-contradictions .qw-defuse-item-fix-t{
+	position: absolute;
+	top: 0px;
+	z-index: 100;
+}
+.qw-resolve-contradictions .qw-fix-t-padding{
+	width: 300px;
+	height: 180px;
+}
+.qw-resolve-contradictions .qw-defuse-item-zoom{
+	transition: all 0.7s;
+}
+.qw-resolve-contradictions .qw-defuse-item-zoom:hover{
+	transform: scale(1.12);
+}
+.qw-resolve-contradictions .qw-item-zoom-wrapper{
+	width: 300px;
+	height: 180px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
+
+/* 收获好评 */
+.qw-resolve-contradictions .qw-home-reputation{
+	background: url(../../images/services/have_an_affair/c_06_bg.jpg);
+	background-size: 100% auto;
+}
+.qw-resolve-contradictions .qw-reputation-title{
+	width: 604px;
+	height: 93px;
+	margin: auto;
+	padding-top: 60px;
+}
+.qw-resolve-contradictions .qw-reputation-title img{
+	width: 100%;
+	display: block;
+}
+.qw-resolve-contradictions .qw-reputation-content{
+	padding-bottom: 28px;
+}
+.qw-resolve-contradictions .qw-reputation-left{
+	width: 736px;
+	height: 566px;
+	margin-top: 27px;
+	margin-left: 50px;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-reputation-left img{
+	display: block;
+	width: 100%;
+}
+.qw-resolve-contradictions .qw-reputation-right{
+	width: 342px;
+	height: 659px;
+	background: url(../../images/services/have_an_affair/c_06_02.png);
+}
+.qw-resolve-contradictions .qw-reputation-right-inside{
+	width: 266px;
+	height: 473px;
+	margin: 80px 38px 106px 38px;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-reputation-right-inside img{
+	width: 100%;
+	display: block;
+}
+/* 问答社区 */
+.qw-resolve-contradictions .qw-home-nav-bbs{
+	background: #fff;
+}
+.qw-resolve-contradictions .qw-nav-bbs-title{
+	width: 603px;
+	height: 130px;
+	margin: auto;
+	padding-top: 24px;
+}
+.qw-resolve-contradictions .qw-nav-bbs-title img{
+	display: block;
+	width: 100%;
+}
+.qw-resolve-contradictions .qw-nav-bbs-column{
+	width: 1122px;
+	height: 758px;
+	margin: auto;
+	background: url(../../images/services/have_an_affair/c_07_bg.png);
+	padding-bottom: 56px;
+}
+.qw-resolve-contradictions .qw-nav-bbs-left-part,.qw-resolve-contradictions .qw-nav-bbs-right-part{
+	width: 561px;
+	padding-top: 138px;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-left-content-box,.qw-resolve-contradictions .qw-right-content-box{
+	width: 446px;
+	margin: auto;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-bbs-list{
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-bbs-item{
+	width: 100%;
+	height: 60px;
+	padding-bottom: 30px;
+}
+.qw-resolve-contradictions .qw-bbs-item-left{
+	width: 90px;
+	height: 60px;
+	overflow: hidden;
+}
+.qw-resolve-contradictions .qw-bbs-item-left img{
+	display: block;
+	width: 100%;
+}
+.qw-resolve-contradictions .qw-bbs-item-right{
+	margin-left: 18px;
+	width: 338px;
+	height: 60px;
+}
+.qw-resolve-contradictions .qw-bbs-item-title{
+	width: 100%;
+	height: 35px;
+}
+.qw-resolve-contradictions .qw-bbs-item-detail{
+	line-height: 35px;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+}
+.qw-resolve-contradictions .qw-read-record-icon,.qw-resolve-contradictions .qw-read-record,
+.qw-resolve-contradictions .qw-like-record-icon,.qw-resolve-contradictions .qw-like-record{
+	vertical-align: middle;
+}
+.qw-resolve-contradictions .qw-bbs-item-icon-record{
+	width: 100%;
+	height: 27px;
+}
+.qw-resolve-contradictions .qw-read-record-icon{
+	width: 18px;
+	height: 14px;
+}
+.qw-resolve-contradictions .qw-read-record{
+	padding-left: 7px;
+}
+.qw-resolve-contradictions .qw-like-record-icon{
+	padding-left: 16px;
+	width: 13px;
+	height: 14px;
+}
+.qw-resolve-contradictions .qw-like-record{
+	padding-left: 7px;
+}
+.qw-resolve-contradictions .qw-read-record,.qw-resolve-contradictions .qw-like-record{
+	font-size: 14px;
+	color: #c1c1c1;
+}
+.qw-resolve-contradictions .qw-qanda-list{
+}
+.qw-resolve-contradictions .qw-qanda-item{
+	width: 100%;
+	height: 102px;
+	margin-bottom: 32px;
+}
+.qw-resolve-contradictions .qw-qanda-item-top{
+	width: 100%;
+	height: 24px;
+}
+.qw-resolve-contradictions .qw-icon-anonymity{
+	width: 24px;
+	height: 24px;
+	display: block;
+}
+.qw-resolve-contradictions .qw-qanda-item-q{
+	width: 386px;
+	font-size: 14px;
+	color: #333333;
+	line-height: 24px;
+	vertical-align: middle;
+	display: block;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.qw-resolve-contradictions .qw-qanda-item-bottom{
+	width: 100%;
+	height: 66px;
+	margin-top: 12px;
+}
+.qw-resolve-contradictions .qw-qanda-bottom-icon{
+	width: 24px;
+	height: 66px;
+}
+.qw-resolve-contradictions .qw-qanda-bottom-icon .qw-icon-portrait{
+	width: 24px;
+	height: 24px;
+	display: block;
+}
+.qw-resolve-contradictions .qw-qanda-bottom-a{
+	width: 386px;
+	height: 52px;
+	margin-left: 10px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.qw-resolve-contradictions .qw-qanda-a-content{
+	font-size: 14px;
+	color: #999999;
+	line-height: 24px;
+	vertical-align: middle;
+
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient: vertical;
+}
+.qw-resolve-contradictions .qw-home-nav-bbs p,.qw-resolve-contradictions .qw-home-nav-bbs h3{
+	transform: translate(0,0);
+	transition: all 0.47s ease-in 0s;
+}
+.qw-resolve-contradictions .qw-home-nav-bbs p:hover{
+	transition: 0.47s;
+	cursor: pointer;
+	color: #e0b978;
+}
+.qw-resolve-contradictions .qw-home-nav-bbs h3:hover{
+	transition: 0.47s;
+	cursor: pointer;
+	color: #e0b978;
+}

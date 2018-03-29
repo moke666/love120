@@ -1,0 +1,480 @@
+@charset "utf-8";
+/*CSS Document*/
+.banner{
+	width: 100%;
+	background: url(../images/Banner.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+/*第一部分*/
+.section1{
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+.title1{
+	width: 545px;
+	height: 56px;
+	margin: 0 auto;
+	background: url(../images/title1.png) no-repeat center;
+	margin-bottom: 35px;
+}
+.Emotional_hidden_danger{
+	overflow: hidden;
+	width: 980px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 40px;
+}
+.Emotional_hidden_danger a{
+	display: inline-block;
+	float: left;
+	width: 172px;
+	height: 235px;
+	margin: 20px 35px;
+}
+.Emotional_hidden_danger a img{
+	width: 100%;
+	transition: all 2s;
+}
+
+.button1{
+	display: block;
+	border: none;
+	outline: none;
+	width: 360px;
+	height: 70px;
+	margin: 0 auto;
+	background: url(../images/btn1.png) no-repeat center;
+	cursor: pointer;
+}
+
+/*第二部分*/
+.section2{
+	width: 100%;
+	height: 1257px;
+	background: url(../images/bg2.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 90px;
+}
+.title2{
+	width: 822px;
+	height: 55px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	background: url(../images/title2.png) no-repeat center;
+}
+.reason-box1{
+	width: 1207px;
+	height: 380px;
+	margin: 0 auto;
+	background: url(../images/reasonbg1.png) no-repeat center;	
+	background-size: 1207px 380px;
+	position: relative;
+	margin-bottom: 128px;
+}
+.reason-box2{
+	width: 1207px;
+	height: 380px;
+	margin: 0 auto;
+	background: url(../images/reasonbg2.png) no-repeat center;	
+	background-size: 1207px 380px;
+	position: relative;
+}
+.detailReason{
+	overflow: hidden;
+	margin: 0px 0px 50px 110px;
+	/*padding-top: 45px;*/
+}
+.detailReason a{
+	display: inline-block;
+	width: 220px;
+	height: 250px;
+	margin: 0 20px;
+	/*margin-top: 45px;*/
+}
+.detailReason a img{
+	margin-top: 10px;
+	transition: all 2s;
+	width: 100%;
+}
+
+.button2_1{
+	display: block;
+	border: none;
+	outline: none;
+	width: 360px;
+	height: 70px;
+	margin: 0 auto;
+	background: url(../images/btn2.png) no-repeat center;
+	cursor: pointer;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -180px;
+}
+.button2_2{
+	display: block;
+	border: none;
+	outline: none;
+	width: 360px;
+	height: 70px;
+	margin: 0 auto;
+	background: url(../images/btn3.png) no-repeat center;
+	cursor: pointer;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -180px;
+}
+
+/*第三部分*/
+.section3{
+	width: 100%;
+	height: 810px;
+	background: url(../images/bg3.jpg) no-repeat center;
+	background-size:1920px 810px;
+	margin-top: -15px;
+	padding-bottom: 78px;
+}
+.title3{
+	width: 1034px;
+	height: 54px;
+	margin: 0 auto;
+	background: url(../images/title3.png) no-repeat center;
+	background-size: 1034px 54px;
+	padding-top: 200px;
+}
+.emotion-img{
+	margin: 0 auto;
+	width: 860px;
+	height: 540px;
+	position: relative;
+}
+.emotion-img img{
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	transition: all 4s;
+}
+/*第四部分*/
+.section4{
+	width: 100%;
+	/*padding-top: 138px;*/
+}
+.emotion-danger{
+	width: 75%;
+	min-width: 1206px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 100px;
+	/*padding-top: 138px;*/
+	padding-top: 50px;
+	transition: all 4.5s;
+}
+.emotion-danger2{
+	padding-top: 135px;
+	padding-bottom: 0;
+	transition: all 4.5s;
+}
+.text-box{
+	width: 60%;
+	float: left;
+}
+.img-box{
+	width: 40%;
+	float: left;
+}
+.img-box img{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.emotion-danger2 .img-box img{
+	width: 110%;
+}
+.title4_1{
+	width: 707px;
+	height: 58px;
+	background: url(../images/title3-1.png) no-repeat center;
+	background-size: 100% 55px;
+	margin-bottom: 50px;
+}
+.title4_2{
+	height: 56px;
+	text-align: right;
+	background: url(../images/title3-2.png) no-repeat right;
+	margin-bottom: 50px;
+}
+.text-box p{
+	margin-left: 93px;
+	margin-bottom: 40px;
+}
+.emotion-danger2 .text-box p{
+	margin-right: 95px;
+	margin-left: 0px;
+}
+.p1{
+	color: #434343;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.p2{
+	color: #434343;
+	font-size: 18px;
+	line-height: 26px;
+	
+}
+.hrbg{
+	width: 1195px; 
+	height: 16px;
+	background: url(../images/hrbg.png) no-repeat center;
+	background-size: 1195px 16px;
+	margin: 0 auto;
+}
+
+.button4{
+	border: none;
+	outline: none;
+	width: 360px;
+	height: 70px;
+	background: url(../images/btn1.png) no-repeat center;
+	cursor: pointer;
+	margin-left: 95px;
+}
+.emotion-danger2 .button4{
+	float: right;
+	margin-left: 0px;
+	margin-right: 95px;
+}
+
+/*第五部分*/
+.section5{
+	width: 100%;
+	padding-top: 85px;
+	padding-bottom: 98px;
+}
+.title5{
+	width: 1062px;
+	height: 64px;
+	margin: 0 auto;
+	background: url(../images/title5.png) no-repeat center;
+	background-size: 1062px 64px;
+	margin-bottom: 50px;
+}
+.adv-box{
+	width: 100%;
+	min-width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../images/bg5.jpg) no-repeat left center;
+	background-size: cover;
+	margin-bottom: 55px;
+	position: relative;
+}
+.adv{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.adv a{
+	height: 33%;
+	display: block;
+	margin-top: 42px;
+}
+.adv a img{
+}
+.adv1{
+	margin-left: 150px;
+}
+.adv2{
+	margin-left: 180px;
+}
+.adv3{
+	margin-left: 150px;
+}
+
+.button5{
+	display: block;
+	border: none;
+	outline: none;
+	width: 360px;
+	height: 70px;
+	margin: 0 auto;
+	background: url(../images/btn5.png) no-repeat center;
+	cursor: pointer;
+}
+
+/*第六部分 */
+.section6{
+	width: 1200px;
+	height: 790px;
+	margin: 0 auto;
+	background: url(../images/bg6.png) no-repeat center;
+	background-size: 1200px 790px;
+	padding-top: 45px;
+	margin-top: 130px;
+}
+.exp-box{
+	width: 100%;
+	height: 480px;
+	margin-bottom: 50px;
+	margin-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.expert-pic{
+	width: 464px;
+	float: left;
+	height: 464px;
+	margin-right: 35px;
+	overflow: hidden;
+}
+.expert-pic img{
+	width: 100%;
+}
+.expert-info{
+	float: left;
+	width: 464px;
+	height: 470px;
+	position: relative;
+}
+.expert-name{
+	font-size: 20px;
+	color: #434343;
+	margin: 60px 0 14px 0;
+}
+.expert-info p{
+	font-size: 18px;
+	line-height: 26px;
+	color: #626262;
+}
+.welldetail{
+	color: #626262;
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 28px;
+}
+.thumbs{
+	margin: 20px 0 0 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0px;
+}
+.thumbs li{
+	float: left;
+	margin-right: 18px;
+}
+.thumbs ul li a{
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+}
+.thumbs ul li a img{
+	width: 108px;
+	height: 108px;
+}
+/*.thumbs ul li a.current{
+	background: url(../images/imgbg.png) no-repeat center;	
+	background-size: 110px;
+	z-index: 999;
+}*/
+
+
+/*第七部分*/
+.section7{
+	width: 100%;
+	padding-top: 130px;
+}
+.title7{
+	width: 405px;
+	height: 56px;
+	margin: 0 auto;
+	background: url(../images/title7.png) no-repeat center;
+	background-size: 405px 56px;
+	margin-bottom: 58px;
+}
+.case-box{
+	margin-bottom: 50px;
+}
+.case-item{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 290px;
+	padding-bottom: 50px;
+	margin-top: 150px;
+	transition: all 1.2s; 
+	border-bottom: 1px dashed #CCCCCC;
+}
+.case-item > a{
+	display: inline-block;
+	float: left;
+	width: 300px;
+	height: 240px;
+	margin-right: 14px;
+}
+.case-item > a img{
+	width: 100%;
+}
+.caseinfo{
+	width: 414px;
+	float: left;
+	height: 240px;
+	margin-left: 26px;
+	margin-right: 52px;
+}
+.caseinfo a{
+	color: #434343;
+	font-size: 24px;
+}
+.caseinfo span{
+	color: #e85252;
+	font-size: 22px;
+	float: right;
+}
+.caseinfo p{
+	margin-top: 24px;
+	color: #626262;
+	font-size: 18px;
+	line-height: 26px;
+}
+.casetips{
+	float: left;
+	width: 390px;
+	height: 240px;
+	background: url(../images/casebg1.png) no-repeat center;
+	color: white;
+	position: relative;
+}
+.casetips.casetips2{
+	background: url(../images/casebg2.png) no-repeat center;
+}
+.casetips h3{
+	display: inline-block;
+	font-size: 22px;
+	margin-left: 66px;
+	margin-right: 28px;
+	margin-bottom: 20px;
+	margin-top: 14px;
+	font-weight: normal;
+}
+.casetips p{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 26px;
+	margin-left: 66px;
+	margin-right: 28px;
+}
+.casetips div{
+	display: inline-block;
+	font-size: 16px;
+	position: absolute;
+	bottom: 28px;
+	right: 30px;
+}
