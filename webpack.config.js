@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin= require('html-webpack-plugin');
+const uglify = require('uglifyjs-webpack-plugin');
 module.exports = {
     entry: {
         'index': path.resolve(__dirname, './srv/index.js')
@@ -14,7 +15,7 @@ module.exports = {
         rules: [
             {
                 test: /\.njk?$/,
-                loader: 'compile-nunjucks-loader'
+                loader: './plus/compile-nunjucks-loader'
             }
         ]
     },
@@ -25,6 +26,7 @@ module.exports = {
     },
 
     plugins: [
+        //new uglify(),
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: './views/index.njk'

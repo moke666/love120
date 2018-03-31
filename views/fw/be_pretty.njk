@@ -1,8 +1,8 @@
 {% extends "./views/shard.njk" %}
 {%block css %}
-    <link rel="stylesheet" type="text/css" href="../static/css/services/be_pretty.css" />
-	<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./static/css/index233.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/services/be_pretty.css" />
+	{# <link rel="stylesheet" type="text/css" href="./static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/index233.css"> #}
 {% endblock %}
 {%block content%}
 <div class="qw-container qw-border-top">
@@ -11,14 +11,14 @@
         <div class="qw-container qw-goddess">
             <!-- 轮播图 -->
             <div class="qw-banner-view">
-                <img src="../static/images/be_pretty/banner.jpg">
+                <img src="/static/images/be_pretty/banner.jpg">
             </div>
             <!-- 女神计划 -->
             <div class="qw-home-plan">
                 <div class="qw-wrapper qw-clear">
                     <div class="qw-plan-left qw-left">
                         <div class="qw-plan-left-title">
-                            <img src="../static/images/be_pretty/c_01_00.png">
+                            <img src="/static/images/be_pretty/c_01_00.png">
                         </div>
                         <div class="qw-plan-left-passage">
                             <p>你们真的了解男人吗？你想成为男人眼中的魅力女神吗？爱情120为回馈广大客户的支持与信赖，现推出女神计划线上视频教学课程，由高级情感导师与高级形象导师合力教学，教你成为女神的十大秘籍，提升你内在与外在的力量，帮助你收获完美爱情~</p>
@@ -165,6 +165,8 @@
                 </div>
             </div>
            
-
-            <script src="../static/js/services/be_pretty.js"></script>
+           {% block script %}
+               <script src="/static/js/services/be_pretty.js"></script>
+           {% endblock %}
+            
    {% endblock %}

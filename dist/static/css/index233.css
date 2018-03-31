@@ -80,11 +80,16 @@
     height: 1200px;
 }
 
-.bar6 img{
-	left: 50%;
-	margin-left: -340px;
-	height: 447px;
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 260px;
+    height: 461px;
 
-
+}
 
