@@ -91,7 +91,9 @@ body{
 }
 /* 单身症结 */
 .qw-not-single .qw-home-symptom{
-	background: #fff;
+	background: url('../../images/about/bg2.png') no-repeat center;
+
+
 }
 .qw-not-single .qw-symptom-title{
 	width: 714px;

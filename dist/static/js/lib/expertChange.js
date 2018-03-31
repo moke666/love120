@@ -80,9 +80,9 @@ $(function(){
 
 
 //姓名
-var name1="王炜老师";
-var name2="李代勤老师";
-var name3="李雨恩老师";
+var name1="阳光老师";
+var name2="美籽老师";
+var name3="汪琴老师";
 
 var nameArray=new Array();
 nameArray[0]=name1;
@@ -90,9 +90,9 @@ nameArray[1]=name2;
 nameArray[2]=name3;
 
 /*荣誉*/
-var honer1="国家情感咨询师；";
-var honer2="四川大学应用心理学高级研修班在读";
-var honer3="应用心理学学士";
+var honer1="四川大学心理学硕士";
+var honer2="IAC国际个人形象管理师";
+var honer3="中国首届国际认证高级婚姻家庭指导师";
 
 var honerArray1=new Array();
 honerArray1[0]=honer1;
@@ -101,9 +101,9 @@ honerArray1[2]=honer3;
 
 
 //
-var honer1="四川大学心理学硕士；";
-var honer2="爱情120两性情感导师";
-var honer3="国家二级心理咨询师";
+var honer1="国家一级婚姻家庭咨询师；";
+var honer2="国家注册高级服装搭配师";
+var honer3="中国高级婚姻家庭教育指导师";
 
 var honerArray2=new Array();
 honerArray2[0]=honer1;
@@ -111,9 +111,9 @@ honerArray2[1]=honer2;
 honerArray2[2]=honer3;
 
 //
-var honer1="华西医院认证心理咨询师；";
-var honer2="国家三级心理咨询师";
-var honer3="国家二级婚姻家庭咨询师";
+var honer1="国家二级心理咨询师；";
+var honer2="中国流行色协会色彩搭配师";
+var honer3="莎提雅治疗师";
 
 var honerArray3=new Array();
 honerArray3[0]=honer1;
@@ -121,9 +121,9 @@ honerArray3[1]=honer2;
 honerArray3[2]=honer3;
 
 //
-var honer1="冷爱再传弟子；";
-var honer2="从事婚恋心理学研究工作10余年";
-var honer3="多年婚恋情感咨询实战经历";
+var honer1="四川省心理协会成员；";
+var honer2="中国色彩协会会员";
+var honer3="沙盘治疗师";
 
 var honerArray4=new Array();
 honerArray4[0]=honer1;
@@ -132,9 +132,9 @@ honerArray4[2]=honer3;
 
 
 //
-var honer1="花镇黄埔计划精英咨询师；";
+var honer1="美国NGH催眠协会会员；";
 var honer2="";
-var honer3="";
+var honer3="《婚姻的启蒙》《婚姻的奥秘》等系列课程编创者";
 
 var honerArray5=new Array();
 honerArray5[0]=honer1;
@@ -142,7 +142,7 @@ honerArray5[1]=honer2;
 honerArray5[2]=honer3;
 
 //
-var honer1="";
+var honer1="全球职业规划师（GCDF）";
 var honer2="";
 var honer3="";
 
@@ -154,9 +154,9 @@ honerArray6[2]=honer3;
 
 
 //简介
-var content1="擅长领域：恋爱挽回，婚姻修复，长期关系经营，自我提升";
-var content2="擅长领域：恋爱、婚姻心理研究，爱情挽回，两性关系、恋爱指导等等";
-var content3="擅长领域：恋爱、婚姻心理研究，婚姻修复，两性关系，长期关系经营";
+var content1="导师寄语：让我们一起来了解真正的自己，提升自我，成为一个有魅力，够吸引力，崭新的自己。";
+var content2="导师寄语：不论在生活的任何阶段，我们都不应该放弃对美好的追求，竭尽全力，至善至美。";
+var content3="导师寄语：情感咨询是针对亲密关系和自我成长的提升改善，突破舒适区的过程必然伴随着不适和痛苦，但老师希望陪着你最终走上幸福的道路，一起走下每一步。";
 
 var contentArray=new Array();
 contentArray[0]=content1;

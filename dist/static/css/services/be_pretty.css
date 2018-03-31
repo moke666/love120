@@ -7,17 +7,18 @@ body{
 }
 
 /* 轮播图 */
-.qw-bepretty-view{
+.qw-banner-view{
 	width: 100%;
 	height: 400px;
 	position: relative;
 }
-.qw-bepretty-view img{
+.qw-banner-view img{
 	position: absolute;
 	top: 0;
 	left: 50%;
 	margin-left: -960px;
 	height: 400px;
+	
 }
 
 /* 女神计划 */

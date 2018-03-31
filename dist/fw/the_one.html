@@ -12,6 +12,34 @@
 	
     <link rel="stylesheet" href="/static/css/services/the_one.css">
 
+	<style>
+        a.qrcode {
+            position: relative;
+        }
+
+        .qrcode img {
+            position: absolute;
+            z-index: 999;
+            bottom: -135px;
+            right: -28px;
+            width: 7.5rem;
+            max-width: none;
+            height: 7.5rem;
+            transform: scale(0);
+            transform-origin: top right;
+            opacity: 0;
+            border-radius: .25rem;
+            -webkit-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+
+        }
+
+        .qrcode:hover img {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,14 +54,15 @@
 			</div>
 
 			<div class="qw-right" style="margin-right: 20px">
-			    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU2MzQ2MTQxNA==&scene=123#wechat_redirect">
 				<img src="/static/images/index/icon_03.png" alt="call" style="width:20px">
-				<span>关注微信</span>
-				</a>
+			    <a class="social qrcode" href="javascript:">
+				    <span>关注微信</span>
+        			<img class="qrcode1" src="/static/images/temp/qr_weixin_mp.png" alt="微信二维码">
+    			</a>
 			</div>
 
 			<div class="qw-right" style="margin-right: 20px">
-			    <a href="https://m.weibo.cn/p/1005056509545468">
+			    <a href="https://m.weibo.cn/p/1005056509545468" target="_blank">
 				<img src="/static/images/index/icon_02.png" alt="call" style="width:20px">
 				<span>关注微博</span>
 				</a>
@@ -234,77 +263,7 @@
         <div class="qw-home-code">
             <img src="../static/images/the_one/c_06_bg.jpg">
         </div>
-        <!-- 收获好评 -->
-        <div class="qw-home-reputation">
-            <div class="qw-reputation-wrapper">
-                <div class="qw-reputation-title">
-                    <img src="../static/images/the_one/c_06_00.png">
-                </div>
-                <div class="qw-reputation-listbox-wrapper">
-                    <div class="qw-reputation-listbox">
-                        <ul class="qw-reputation-list qw-clear">
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_01.png">
-                                <span class="qw-reputation-item-tt">蜡笔小新</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">以前不相信爱情，一直都是一个人凑合着过。遇到周老师后，我才学会了怎样去爱一个人，现在我脱单成功了，快恭喜我！</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_02.png">
-                                <span class="qw-reputation-item-tt">世界只因有你</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">我第一次表白被拒绝的场景，心就像被撕碎了一样喘不过气，所以我怕了。直到在爱情120，我才卸下伪装和防备，迎接.....</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_03.png">
-                                <span class="qw-reputation-item-tt">野蔷薇</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">哇，好像只有我一个人已经生孩子的，感谢爱情120，让我把失去的爱找回来。现在的我，每天都很幸福。</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_04.png">
-                                <span class="qw-reputation-item-tt">小马驹</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">我以前都不知道恋爱还能接受指导的，一直就是摸着石头过河，所以这么多年了还单着。现在有了周老师的指导，我再也......</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_01.png">
-                                <span class="qw-reputation-item-tt">超人不怕黑</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">以前不相信爱情，一直都是一个人凑合着过。遇到周老师后，我才学会了怎样去爱一个人，现在我脱单成功了，快恭喜我！</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_02.png">
-                                <span class="qw-reputation-item-tt">夜里的向日葵</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">我第一次表白被拒绝的场景，心就像被撕碎了一样喘不过气，所以我怕了。直到在爱情120，我才卸下伪装和防备，迎接.....</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_03.png">
-                                <span class="qw-reputation-item-tt">喜宝妈妈爱喜宝</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">哇，好像只有我一个人已经生孩子的，感谢爱情120，让我把失去的爱找回来。现在的我，每天都很幸福。</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                            <li class="qw-reputation-item qw-left">
-                                <img class="qw-reputation-item-tt-pic" src="../static/images/the_one/c_06_04.png">
-                                <span class="qw-reputation-item-tt">我是小马哥</span>
-                                <img class="qw-reputation-item-icon-triangle" src="../static/images/the_one/c_06_icon_triangle.png">
-                                <p class="qw-reputation-item-p">我以前都不知道恋爱还能接受指导的，一直就是摸着石头过河，所以这么多年了还单着。现在有了周老师的指导，我再也......</p>
-                                <img class="qw-reputation-item-icon-cross" src="../static/images/the_one/c_06_icon_+.png">
-                            </li>
-                        </ul>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+       
        
     <script src="/static/js/services/the_one.js"></script>
      
@@ -354,8 +313,8 @@
 			<div class="qw-ft-contact qw-left">
 				<div class="qw-ft-title">成都爱情一二零教育咨询有限公司</div>
 				<p>地址：成都市高新区交子大道300号环汇商业广场M4栋2402
-					<br> 电话：028-62526822
-					<br> 邮箱：314550886@qq.com
+					<br> 电话：400-000-6486
+					<br> 邮箱：13558759513@139.com
 				</p>
 			</div>
 		</div>

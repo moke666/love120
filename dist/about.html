@@ -14,6 +14,34 @@
 	<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
     <link rel="stylesheet" type="text/css" href="./static/css/index233.css">
 
+	<style>
+        a.qrcode {
+            position: relative;
+        }
+
+        .qrcode img {
+            position: absolute;
+            z-index: 999;
+            bottom: -135px;
+            right: -28px;
+            width: 7.5rem;
+            max-width: none;
+            height: 7.5rem;
+            transform: scale(0);
+            transform-origin: top right;
+            opacity: 0;
+            border-radius: .25rem;
+            -webkit-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+
+        }
+
+        .qrcode:hover img {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,14 +56,15 @@
 			</div>
 
 			<div class="qw-right" style="margin-right: 20px">
-			    <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU2MzQ2MTQxNA==&scene=123#wechat_redirect">
 				<img src="/static/images/index/icon_03.png" alt="call" style="width:20px">
-				<span>关注微信</span>
-				</a>
+			    <a class="social qrcode" href="javascript:">
+				    <span>关注微信</span>
+        			<img class="qrcode1" src="/static/images/temp/qr_weixin_mp.png" alt="微信二维码">
+    			</a>
 			</div>
 
 			<div class="qw-right" style="margin-right: 20px">
-			    <a href="https://m.weibo.cn/p/1005056509545468">
+			    <a href="https://m.weibo.cn/p/1005056509545468" target="_blank">
 				<img src="/static/images/index/icon_02.png" alt="call" style="width:20px">
 				<span>关注微博</span>
 				</a>
@@ -185,8 +214,8 @@
 			<div class="qw-ft-contact qw-left">
 				<div class="qw-ft-title">成都爱情一二零教育咨询有限公司</div>
 				<p>地址：成都市高新区交子大道300号环汇商业广场M4栋2402
-					<br> 电话：028-62526822
-					<br> 邮箱：314550886@qq.com
+					<br> 电话：400-000-6486
+					<br> 邮箱：13558759513@139.com
 				</p>
 			</div>
 		</div>

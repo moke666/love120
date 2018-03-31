@@ -6,6 +6,8 @@
 	background-size: cover;
 	position: relative;
 }
+
+
 /*第一部分*/
 .section1{
 	width: 100%;
@@ -270,7 +272,7 @@
 	min-width: 1200px;
 	height: 500px;
 	margin: 0 auto;
-	background: url(../images/bg5.jpg) no-repeat left center;
+	background: url(../images/bg5.jpg) no-repeat center;
 	background-size: cover;
 	margin-bottom: 55px;
 	position: relative;
@@ -478,3 +480,7 @@
 	bottom: 28px;
 	right: 30px;
 }
+
+
+
+
