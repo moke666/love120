@@ -44,6 +44,14 @@
     padding-left: 20px;
 }
 
+.thumbs{
+    width: 520px;
+}
+
+.expert-info{
+    width: 500px;
+}
+
 /*团队*/
 
 .qw-banner-team{
@@ -92,4 +100,10 @@
     height: 461px;
 
 }
+
+.qw-banner-team{
+    height: 450px;
+}
+
+/*私人定制*/
 

@@ -13,7 +13,8 @@
 	
 <link rel="stylesheet" type="text/css" href="./static/css/publicStyle.css" />
 <link rel="stylesheet" type="text/css" href="./static/css/style.css" />
-<link rel="stylesheet" type="text/css" href="./static/css/index233.css"> 
+<link rel="stylesheet" type="text/css" href="./static/css/index233.css">
+
 
 	<style>
         a.qrcode {
@@ -116,7 +117,7 @@
 					
 				
 				<li class="qw-g-menu-item ">
-						<a href="/about.html">品牌实力</a>
+						<a href="/about.html">点我咨询</a>
 					</li>
 				</ul>
 			</div>
@@ -126,7 +127,7 @@
 	
 <div class="qw-container qw-border-top">
 	<!-- 轮播 -->
-	<div class="qw-banner-view" style="height:400px">
+	<div class="qw-banner-view" style="height:450px">
 		<ul class="qw-banner">
 			<li>
 				<a href="">
@@ -180,11 +181,11 @@
 			<ul class="qw-service-grids qw-clear">
 				<li class="qw-service-item qw-left">
 					<img src="./static/images/index/home_project_00.png" alt="">
-					<div class="qw-service-subtitle">分析师针对您具体的情感问题，做全面的问题解刨，挖掘问题出现的原因，解答您的情感疑惑。</div>
+					<div class="qw-service-subtitle">分析师针对您具体的情感问题，做全面的问题解析，挖掘问题出现的原因，解答您的情感疑惑。</div>
 				</li>
 				<li class="qw-service-item qw-left">
 					<img src="./static/images/index/home_project_01.png" alt="">
-					<div class="qw-service-subtitle">通过微信在线和电话1对1沟通，为您提供高效的信息交流空间，更好的倾听您的述求。</div>
+					<div class="qw-service-subtitle">通过微信在线和电话1对1沟通，为您提供高效的信息交流空间，更好的倾听您的诉求。</div>
 				</li>
 				<li class="qw-service-item qw-left">
 					<img src="./static/images/index/home_project_02.png" alt="">
@@ -219,6 +220,9 @@
 				<div class="image" id="image_pic-03">
 					<img class="pic" src="./static/images/03.png">
 				</div>
+				<div class="image" id="image_pic-04">
+					<img class="pic" src="./static/images/04.png">
+				</div>
 			</div>
 			<div class="expert-info">
 				<h3 class="expert-name">阳光老师</h3>
@@ -248,6 +252,11 @@
 						<li class="slideshowItem">
 							<a id="thumb_pic-03" href="javascript:">
 								<img src="./static/images/03_1.png">
+							</a>
+						</li>
+						<li class="slideshowItem">
+							<a id="thumb_pic-04" href="javascript:">
+								<img src="./static/images/04_1.png">
 							</a>
 						</li>
 					</ul>
@@ -329,15 +338,20 @@
 		</div>
 		<div class="swiper-container">
         	<div class="swiper-wrapper">
-            	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt.png)"></div>
             	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt01.png)"></div>
             	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt02.png)"></div>
             	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt03.png)"></div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt04.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt05.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt06.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt07.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt08.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt09.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt10.png)"></div>
+        	</div>
+        	<!-- Add Pagination -->
+        	<div class="swiper-pagination"></div>
     	</div>
-		
 	</div>
 </div>
 
@@ -361,9 +375,6 @@
 			<div class="qw-left qw-ft-navigation">
 				<div class="qw-ft-title">快速链接</div>
 				<ul class="qw-clear qw-ft-menu">
-					<li>
-						<a href="/about.html">关于我们</a>
-					</li>
 					<li>
 						<a href="/fw/marriage.html">婚姻修护</a>
 					</li>
@@ -408,20 +419,21 @@
 <!--导师 部分 图片切换-->
 <script src="./static/js/lib/indexshow.js" type="text/javascript" charset="utf-8"></script> 
 <script>
- var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflow: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true
-        }
-});
+	var target = ["pic-01", "pic-02", "pic-03"];
+ 	var swiper = new Swiper('.swiper-container', {
+        	pagination: '.swiper-pagination',
+        	effect: 'coverflow',
+        	grabCursor: true,
+        	centeredSlides: true,
+        	slidesPerView: 'auto',
+        	coverflow: {
+            	rotate: 50,
+            	stretch: 0,
+            	depth: 100,
+            	modifier: 1,
+            	slideShadows : true
+        	}
+		});
 </script>
 
 <script type="text/javascript" src="index.js"></script></body>
