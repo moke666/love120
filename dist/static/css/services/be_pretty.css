@@ -9,7 +9,7 @@ body{
 /* 轮播图 */
 .qw-banner-view{
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	position: relative;
 }
 .qw-banner-view img{
@@ -17,14 +17,37 @@ body{
 	top: 0;
 	left: 50%;
 	margin-left: -960px;
-	height: 400px;
+	height: 450px;
 	
+}
+
+/* 团队优势 */
+.qw-home-advantage{
+	width: 100%;
+	background: #f8f8f8;
+}
+.qw-advantage-list{
+	width: 100%;
+	padding-top: 59px;
+	padding-bottom: 59px;
+}
+.qw-advantage-item{
+	float: left;
+	width: 33.3333%;
+	height: 179px;
+}
+.qw-advantage-item img{
+	display: block;
+	width: 272px;
+	height: 179px;
+	margin: auto;
+	position: relative;
 }
 
 /* 女神计划 */
 .qw-goddess .qw-home-plan{
 	width: 100%;
-	height: 612px;
+	height: 560px;
 	background: #fff;
 }
 .qw-goddess .qw-plan-left{
@@ -34,7 +57,7 @@ body{
 	margin-left: 86px;
 }
 .qw-goddess .qw-plan-left-title{
-	width: 348px;
+	width: 400px;
 	height: 67px;
 	overflow: hidden;
 }
@@ -48,7 +71,7 @@ body{
 }
 .qw-goddess .qw-plan-left-passage{
 	width: 100%;
-	height: 84px;
+	height: 80px;
 	padding-top: 18px;
 	overflow: hidden;
 }
@@ -65,21 +88,19 @@ body{
 .qw-goddess .qw-plan-left-passage p:hover{
 	color: #ec9bb7;
 }
-.qw-goddess .qw-plan-left-listbox{
-	padding-top: 32px;
-}
+
 .qw-goddess .qw-plan-left-list{
 	overflow: hidden;
 }
 .qw-goddess .qw-plan-left-item{
-	width: 80px;
-	height: 114px;
+	width: 454px;
+	height: 56px;
 	margin-right: 71px;
 	overflow: hidden;
 }
 .qw-goddess .qw-plan-left-item-img{
-	width: 80px;
-	height: 80px;
+	width: 454px;
+	height: 56px;
 	display: block;
 	position: relative;
 }
@@ -114,608 +135,74 @@ body{
 	display: block;
 }
 
-/* 明星导师 */
-.qw-goddess .qw-home-star{
-	background: #ffe2ec;
-	padding-bottom: 100px;
+
+
+/* 服务流程 */
+
+.section5{
+	width: 100%;
+	padding-top: 85px;
 }
-.qw-goddess .qw-star-wrapper{
-	width: 1240px;
-	margin: auto;
+
+.title5{
+	width: 1062px;
+	height: 64px;
+	margin: 0 auto;
+	background: url(../../images/be_pretty/title5.png) no-repeat center;
+	background-size: 1062px 64px;
 }
-.qw-goddess .qw-star-title{
+
+.adv-box{
+	width: 100%;
+	min-width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../../images/be_pretty/fwlc.jpg) no-repeat center;
+	background-size: cover;
+	margin-bottom: 55px;
+	position: relative;
+}
+
+
+/* 团队照片 */
+
+.section6{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 98px;
+}
+
+.title6{
 	width: 256px;
 	height: 52px;
-	margin: auto;
-	padding-top: 80px;
-}
-.qw-goddess .qw-star-title img{
-	width: 100%;
-	display: block;
-	transition: transform 0.6s ease-out;
-	position: relative;
-}
-.qw-goddess .qw-star-title img:hover{
-	transform: rotateZ(3deg);
-	top: -5px;
-}
-.qw-goddess .qw-star-bg{
-	width: 100%;
-	height: 720px;
-	background: url(../../images/services/be_pretty/c_02_bg.png) no-repeat;
-	margin-top: 37px;
-	padding-bottom: 32px;
-	position: relative;
-}
-.qw-goddess .qw-star-bg-adorn{
-	width: 58px;
-	height: 192px;
-	position: absolute;
-	bottom: 100px;
-	right: -188px;
-}
-.qw-goddess .qw-star-bg-adorn img{
-	display: block;
-	width: 100%;
-}
-.qw-goddess .qw-star-bg-subwrapper{
-	width: 1120px;
-	margin: auto;
-}
-.qw-goddess .qw-star-left{
-	width: 320px;
-	height: 427px;
-	padding-top: 67px;
-}
-.qw-goddess .qw-star-left img{
-	width: 100%;
-	display: block;
-}
-.qw-goddess .qw-star-right{
-	width: 716px;
-	height: 427px;
-	padding-top: 67px;
-	margin-left: 50px;
-}
-.qw-goddess .qw-star-rtop-introduce{
-	border-bottom: 1px dashed #e6e6e6;
-}
-.qw-goddess .qw-star-rtop-tt{
-	display: block;
-	font-size: 18px;
-	height: 18px;
-	line-height: 18px;
-	color: #333333;
-	padding-top: 14px;
-	transition: all 0.47s;
-}
-.qw-goddess .qw-star-rtop-tt:hover{
-	color: #fe336e;
-}
-.qw-goddess .qw-star-rtop-list{
-	height: 20px;
-	padding-top: 11px;
-}
-.qw-goddess .qw-star-rtop-duty{
-	font-size: 12px;
-	height: 20px;
-	line-height: 20px;
-	color: #989898;
-	display: block;
-}
-.qw-goddess .qw-star-duty-label1{
-	width: 72px;
-	height: 20px;
-	margin-left: 20px;
-	display: block;
-}
-.qw-goddess .qw-star-duty-label2{
-	width: 96px;
-	height: 20px;
-	margin-left: 10px;
-	display: block;
-}
-.qw-goddess .qw-star-rtop-passage{
-	display: block;
-	width: 100%;
-	height: 84px;
-	font-size: 14px;
-	line-height: 28px;
-	color: #666666;
-	padding-top: 20px;
-	padding-bottom: 14px;
-	transition: all 0.47s;
-}
-.qw-goddess .qw-star-rtop-passage:hover{
-	color: #ec9bb7;
-}
-.qw-goddess .qw-star-rmid-tt{
-	display: block;
-	font-size: 14px;
-	height: 14px;
-	line-height: 14px;
-	color: #666666;
-	padding-top: 20px;
-}
-.qw-goddess .qw-star-rmid-img1,
-.qw-goddess .qw-star-rmid-img2{
-	display: block;
-	width: 100px;
-	height: 120px;
-	padding-top: 18px;
-	padding-bottom: 28px;
-}
-.qw-goddess .qw-star-rmid-img2{
-	margin-left: 10px;
-}
-.qw-goddess .qw-star-rmid-control{
-	width: 100%;
-	height: 42px;
-}
-.qw-goddess .qw-star-btn-appointment,
-.qw-goddess .qw-star-btn-consult{
-	display: block;
-	width: 160px;
-	height: 42px;
-	background: url(../../images/services/be_pretty/c_02_07.png);
-	font-size: 16px;
-	text-align: center;
-	line-height: 42px;
-	color: #fe3364;
-	transition: all 0.47s;
-	border-radius: 5px;
-}
-.qw-goddess .qw-star-btn-appointment:hover{
-	background: #fe336e;
-	color: #fff;
-	cursor: pointer;
-}
-.qw-goddess .qw-star-btn-consult:hover{
-	background: #fe336e;
-	color: #fff;
-	cursor: pointer;
-}
-.qw-goddess .qw-star-btn-consult{
-	margin-left: 20px;
-}
-.qw-goddess .qw-star-btn-more{
-	display: block;
-	font-size: 14px;
-	height: 42px;
-	line-height: 42px;
-	color: #999999;
-	transition: all 0.47s;
-}
-.qw-goddess .qw-star-btn-more:hover{
-	color: #ff6956;
-	cursor: pointer;
-}
-.qw-goddess .qw-star-bottom{
-	margin-top: 40px;
-	margin-left: 40px;
-	position: relative;
-}
-.qw-goddess .qw-star-bottom-list{
-	overflow: hidden;
-}
-.qw-goddess .qw-star-bottom-item{
-	width: 245px;
-	height: 80px;
-	background: #f8f8f8;
-	margin-right: 20px;
-}
-.qw-goddess .qw-star-bottom-item-left{
-	width: 60px;
-	height: 80px;
-	margin-left: 19px;
-}
-.qw-goddess .qw-star-bottom-item-left img{
-	width: 60px;
-	height: 60px;
-	display: block;
-	margin-top: 10px;
-}
-.qw-goddess .qw-star-bottom-item-right{
-	margin-left: 20px;
-	height: 80px;
-}
-.qw-goddess .qw-star-bir-top{
-	display: block;
-	font-size: 16px;
-	line-height: 16px;
-	height: 16px;
-	padding-top: 21px;
-	color: #444444;
-}
-.qw-goddess .qw-star-bir-bottom{
-	display: block;
-	color: #989898;
-	font-size: 14px;
-	height: 14px;
-	line-height: 14px;
-	padding-top: 11px;
-}
-.qw-goddess .qw-star-bottom-list-prev,
-.qw-goddess .qw-star-bottom-list-next{
-	display: block;
-	width: 8px;
-	height: 14px;
-	position: absolute;
-	top: 38%;
-	transition: all 0.47s;
-}
-.qw-goddess .qw-star-bottom-list-prev img,
-.qw-goddess .qw-star-bottom-list-next img{
-	width: 100%;
-	display: block;
-}
-.qw-goddess .qw-star-bottom-list-prev{
-	left: -30px;
-}
-.qw-goddess .qw-star-bottom-list-next{
-	right: -10px;
-}
-.qw-goddess .qw-star-bottom-list-prev:hover{
-	left: -40px;
-}
-.qw-goddess .qw-star-bottom-list-next:hover{
-	right: -20px;
+	margin: 0 auto;
+	background: url(../../images/be_pretty/c_02_00.png) no-repeat center;
 }
 
-
-/* 团队优势 */
-.qw-goddess .qw-home-advantage{
-	background: #fff;
-}
-.qw-goddess .qw-advantage-title{
-	width: 458px;
-	height: 52px;
-	margin: auto;
-	padding-top: 52px;
-}
-.qw-goddess .qw-advantage-title img{
+.adv-box6{
 	width: 100%;
-	display: block;
-}
-.qw-goddess .qw-advantage-content{
-	width: 100%;
-	height: 513px;
-	padding-top: 54px;
-	padding-bottom: 60px;
-}
-.qw-goddess .qw-advantage-content-img2,
-.qw-goddess .qw-advantage-content-img4{
-	margin-top: 50px;
-}
-.qw-goddess .qw-advantage-content-left,
-.qw-goddess .qw-advantage-content-right{
-	width: 268px;
-	height: 434px;
-	padding-top: 28px;
-}
-.qw-goddess .qw-advantage-content-left img,
-.qw-goddess .qw-advantage-content-right img{
-	display: block;
-	width: 268px;
-	height: 217px;
-}
-.qw-goddess .qw-advantage-content-left{
-	margin-left: 124px;
-}
-.qw-goddess .qw-advantage-content-right{
-	margin-right: 124px;
-}
-.qw-goddess .qw-advantage-content-mid{
-	width: 300px;
-	height: 450px;
-	margin-left: 60px;
-}
-.qw-goddess .qw-advantage-content-mid img{
-	width: 100%;
-	display: block;
-	position: relative;
-}
-.qw-advantage-content-img1,
-.qw-advantage-content-img2,
-.qw-advantage-content-img3,
-.qw-advantage-content-img4{
+	min-width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../../images/be_pretty/bg5.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: 55px;
 	position: relative;
 }
 
+/* 四大需求 */
 
-
-/* 问答社区 */
-.qw-goddess .qw-home-nav-bbs{
-	background: #fff;
-}
-.qw-goddess .qw-bbs-wrapper{
-	width: 1188px;
-	margin: auto;
-}
-.qw-goddess .qw-nav-bbs-title{
-	width: 364px;
-	height: 52px;
-	margin: auto;
-	padding-top: 60px;
-}
-.qw-goddess .qw-nav-bbs-title img{
-	display: block;
+.section7{
 	width: 100%;
-	transition: transform 0.6s ease-out;
+}
+
+
+.adv-box7{
+	width: 100%;
+	min-width: 1200px;
+	height: 1060px;
+	margin: 0 auto;
+	background: url(../../images/be_pretty/c_04_05.png) no-repeat center;
+	background-size: cover;
 	position: relative;
-}
-.qw-goddess .qw-nav-bbs-title img:hover{
-	transform: rotateZ(3deg);
-	top: -5px;
-}
-.qw-goddess .qw-nav-bbs-left-part,.qw-goddess .qw-nav-bbs-right-part{
-	background: url(../../images/services/be_pretty/c_06_bg.png);
-	width: 634px;
-	height: 468px;
-	margin-top: 24px;
-	margin-bottom: 62px;
-}
-.qw-goddess .qw-nav-bbs-left-part{
-	margin-left: -20px;
-	margin-right: -20px;
-}
-.qw-goddess .qw-nav-bbs-right-part{
-	margin-right: -20px;
-	margin-left: -20px;
-}
-.qw-goddess .qw-left-content-box,.qw-right-content-box{
-	width: 560px;
-	height: 394px;
-	margin: 35px 37px 39px 37px;
-}
-.qw-goddess .qw-content-box-inside{
-	width: 500px;
-	margin: auto;
-}
-.qw-goddess .qw-bbs-list{
-	overflow: hidden;
-}
-.qw-goddess .qw-bbs-item{
-	width: 100%;
-	height: 60px;
-	padding-top: 30px;
-}
-.qw-goddess .qw-bbs-item-left{
-	width: 90px;
-	height: 60px;
-}
-.qw-goddess .qw-bbs-item-left img{
-	display: block;
-	width: 100%;
-}
-.qw-goddess .qw-bbs-item-right{
-	margin-left: 18px;
-	width: 392px;
-	height: 60px;
-}
-.qw-goddess .qw-bbs-item-title{
-	width: 100%;
-	height: 35px;
-}
-.qw-goddess .qw-bbs-item-detail{
-	line-height: 35px;
-	font-size: 14px;
-	color: #333333;
-	font-weight: bold;
-}
-.qw-goddess .qw-read-record-icon,.qw-goddess .qw-read-record,
-.qw-goddess .qw-like-record-icon,.qw-goddess .qw-like-record{
-	vertical-align: middle;
-}
-.qw-goddess .qw-bbs-item-icon-record{
-	width: 100%;
-	height: 27px;
-}
-.qw-goddess .qw-read-record-icon{
-	width: 18px;
-	height: 14px;
-}
-.qw-goddess .qw-read-record{
-	padding-left: 7px;
-}
-.qw-goddess .qw-like-record-icon{
-	padding-left: 16px;
-	width: 13px;
-	height: 14px;
-}
-.qw-goddess .qw-like-record{
-	padding-left: 7px;
-}
-.qw-goddess .qw-read-record,.qw-goddess .qw-like-record{
-	font-size: 14px;
-	color: #c1c1c1;
-}
-.qw-goddess .qw-qanda-list{
-	padding-top: 30px;
-}
-.qw-goddess .qw-qanda-item{
-	width: 100%;
-	height: 102px;
-	margin-bottom: 20px;
-}
-.qw-goddess .qw-qanda-item-top{
-	width: 100%;
-	height: 24px;
-}
-.qw-goddess .qw-icon-anonymity{
-	width: 24px;
-	height: 24px;
-	display: block;
-}
-.qw-goddess .qw-qanda-item-q{
-	width: 386px;
-	font-size: 14px;
-	color: #333333;
-	line-height: 24px;
-	vertical-align: middle;
-	display: block;
-	margin-left: 10px;
-	font-weight: bold;
-}
-.qw-goddess .qw-qanda-item-bottom{
-	width: 100%;
-	height: 66px;
-	margin-top: 12px;
-}
-.qw-goddess .qw-qanda-bottom-icon{
-	width: 24px;
-	height: 66px;
-}
-.qw-goddess .qw-qanda-bottom-icon .qw-icon-portrait{
-	width: 24px;
-	height: 24px;
-	display: block;
-}
-.qw-goddess .qw-qanda-bottom-a{
-	width: 386px;
-	height: 52px;
-	margin-left: 10px;
-	padding-bottom: 13px;
-	border-bottom: 1px solid #f0f0f0;
-}
-.qw-goddess .qw-qanda-a-content{
-	font-size: 14px;
-	color: #999999;
-	line-height: 24px;
-	vertical-align: middle;
-
-	overflow : hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp:2;
-	-webkit-box-orient: vertical;
-}
-.qw-goddess .qw-home-nav-bbs p,.qw-goddess .qw-home-nav-bbs h3{
-	transform: translate(0,0);
-	transition: all 0.47s ease-in 0s;
-}
-.qw-goddess .qw-home-nav-bbs p:hover{
-	transition: 0.47s;
-	cursor: pointer;
-	color: #fe336e;
-}
-.qw-goddess .qw-home-nav-bbs h3:hover{
-	transition: 0.47s;
-	cursor: pointer;
-	color: #fe336e;
-}
-.zt-goddess-tutor{
-	margin-top: 60px;
-}
-.zt-goddess-tutor-nav{
-	float: right;
-	width: 300px;
-	padding-left: 20px;
-}
-.zt-tutor-main{
-	float: left;
-	width: 560px;
-	height: 390px;
-	background-color: #fff;
-	position: relative;
-	padding-left: 360px;
-	box-shadow: 0px 0px 16px #fdd1e0;
-}
-.zt-tutor-main .figure{
-	width: 320px;
-	height: 430px;
-	position: absolute;
-	left: 0;
-	top: -20px;
-}
-.zt-tutor-main  .details{
-	padding-top: 50px;
-	padding-right: 40px;
-}
-.zt-tutor-main  .details .title{
-	color:#fe336e;
-	font-size:16px;
-	font-weight: bold;
-}
-.zt-tutor-main .details .subtitle{
-	color:#999;
-	font-size:13px;
-	padding-top: 10px;
-}
-.zt-tutor-main .details .intro{
-	margin-top: 25px;
-	border-top: 1px dashed #e6e6e6;
-	padding-top: 13px;
-	font-size:13px;
-	line-height: 26px;
-	height: 162px;
-}
-.zt-tutor-main .details .control{
-	overflow: hidden;
-}
-
-.zt-tutor-main .details .control > .qw-button-red {
-	border-radius: 5px;
-	font-size:16px;
-	width:160px;
-	line-height: 42px;
-	height: 42px;
-	float: left;
-	margin-right: 20px;
-	text-align: center;
-}
-.zt-tutor-main .details .control > .qw-button-red-line {
-	border-radius: 5px;
-	font-size:16px;
-	width:160px;
-	line-height: 40px;
-	height: 40px;
-	float: left;
-	margin-right: 20px;
-	text-align: center;
-}
-
-.zt-goddess-tutor-item{
-	background-color: #fff;
-	padding:25px 20px;
-	margin-bottom: 15px;
-	position: relative;
-	cursor: pointer;
-}
-.zt-goddess-tutor-item.active,
-.zt-goddess-tutor-item:hover{
-	box-shadow: 0px 2px 8px #fdd0df 
-}
-.zt-goddess-tutor-item.active .active-style,
-.zt-goddess-tutor-item:hover .active-style{
-	position: absolute;
-	right: 0px;
-	width: 2px;
-	top: 20px;
-	bottom: 20px;
-	background-color: #fe336e;
-	box-shadow: 0px 2px 8px #fdd0df 
-}
-.zt-goddess-tutor-item .zt-tutor-avatar{
-	float: left;
-	position: relative;
-	width: 70px;
-	height: 70px;
-	overflow: hidden;
-}
-.zt-goddess-tutor-item .intro{
-	float: left;
-	padding-left: 20px;
-}
-.zt-goddess-tutor-item .intro h1{
-	color:#333;
-	font-size: 16px;
-	padding-top: 10px;
-}
-.zt-goddess-tutor-item .intro .subtitle{
-	color:#999;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	line-height: 35px;
 }

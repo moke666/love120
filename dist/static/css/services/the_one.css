@@ -11,7 +11,7 @@ body{
 }
 .qw-not-single .qw-theone-view{
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	position: relative;
 }
 .qw-not-single .qw-theone-view img{
@@ -19,7 +19,7 @@ body{
 	top: 0;
 	left: 50%;
 	margin-left: -960px;
-	height: 400px;
+	height: 450px;
 }
 .qw-not-single .qw-wave{
 	width: 100%;
@@ -248,7 +248,7 @@ body{
 	width: 32px;
 	height: 32px;
 	margin: auto;
-	padding-top: 30px;
+	padding-top: 25px;
 }
 /* 二维码 */
 .qw-not-single .qw-home-code{
