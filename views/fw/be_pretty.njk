@@ -1,82 +1,87 @@
-{% extends "./views/shard.njk" %}
+{% extends "./views/shard.njk" %} 
 {%block css %}
-    <link rel="stylesheet" type="text/css" href="/static/css/services/be_pretty.css" />
-	{# <link rel="stylesheet" type="text/css" href="./static/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./static/css/index233.css"> #}
-{% endblock %}
+<link rel="stylesheet" type="text/css" href="/static/css/services/be_pretty.css" /> 
+{#<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
+<link rel="stylesheet" type="text/css" href="./static/css/index233.css"> #} 
+{% endblock %} 
 {%block content%}
+
 <div class="qw-container qw-border-top">
+    <!-- 内容 -->
+    <div class="qw-container qw-goddess">
+        <!-- 轮播图 -->
+        <div class="qw-banner-view">
+            <img src="/static/images/be_pretty/banner.png">
+        </div>
 
-        <!-- 内容 -->
-        <div class="qw-container qw-goddess">
-            <!-- 轮播图 -->
-            <div class="qw-banner-view">
-                <img src="/static/images/be_pretty/banner.png">
-            </div>
-
-            <!-- 女神计划 -->
-            <div class="qw-home-plan">
-                <div class="qw-wrapper qw-clear">
-                    <div class="qw-plan-left qw-left">
-                        <div class="qw-plan-left-title">
-                            <img src="/static/images/be_pretty/c_01_00.png">
-                        </div>
-                        <div class="qw-plan-left-passage">
-                            <p>您是否期望完全按照您的时间随时与导师沟通？</p>
-                            <p>您是否期待完全按照您的方式制定学习内容？</p>
-                            <p>您是否有更多个性化咨询需求而希望我们配合？</p>
-                        </div>
-                        <div class="qw-plan-left-listbox">
-                            <ul class="qw-plan-left-list qw-clear">
-                                <li class="qw-plan-left-item qw-left">
-                                    <img class="qw-plan-left-item-img" src="../static/images/be_pretty/c_01_01.png">
-                                </li>
-                                <li class="qw-plan-left-item qw-left">
-                                    <img class="qw-plan-left-item-img" src="../static/images/be_pretty/c_01_02.png">
-                                </li>
-                               
-                            </ul>
-                        </div>
+        <!-- 女神计划 -->
+        <div class="qw-home-plan">
+            <div class="qw-wrapper qw-clear">
+                <div class="qw-plan-left qw-left">
+                    <div class="qw-plan-left-title">
+                        <img src="/static/images/be_pretty/c_01_00.png">
                     </div>
-                    <div class="qw-plan-right qw-right">
-                        <img src="../static/images/be_pretty/c_01_05.png">
+                    <div class="qw-plan-left-passage">
+                        <p>您是否期望完全按照您的时间随时与导师沟通？</p>
+                        <p>您是否期待完全按照您的方式制定学习内容？</p>
+                        <p>您是否有更多个性化咨询需求而希望我们配合？</p>
+                    </div>
+                    <div class="qw-plan-left-listbox">
+                        <ul class="qw-plan-left-list qw-clear">
+                            <li class="qw-plan-left-item qw-left">
+                                <img class="qw-plan-left-item-img" src="../static/images/be_pretty/c_01_01.png">
+                            </li>
+                            <li class="qw-plan-left-item qw-left">
+                                <img class="qw-plan-left-item-img" src="../static/images/be_pretty/c_01_02.png">
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-            </div>
-
-
-             <!-- 团队优势 -->
-        <div class="qw-home-advantage">
-            <div class="qw-subwrapper">
-                <ul class="qw-advantage-list qw-clear">
-                    <li class="qw-advantage-item"><img src="../static/images/be_pretty/be_01_01.png"></li>
-                    <li class="qw-advantage-item"><img src="../static/images/be_pretty/be_01_02.png"></li>
-                    <li class="qw-advantage-item"><img src="../static/images/be_pretty/be_01_03.png"></li>
-                </ul>
+                <div class="qw-plan-right qw-right">
+                    <img src="../static/images/be_pretty/c_01_05.png">
+                </div>
             </div>
         </div>
 
+        <!-- 团队优势 -->
+  
+        <div class="qw-wrapper"  style="background: #f8f8f8;">
+            <ul class="qw-advantage-list qw-clear">
+                <li class="qw-advantage-item">
+                    <img src="/static/images/be_pretty/be_01_01.png">
+                </li>
+                <li class="qw-advantage-item">
+                    <img src="/static/images/be_pretty/be_01_02.png">
+                </li>
+                <li class="qw-advantage-item">
+                    <img src="/static/images/be_pretty/be_01_03.png">
+                </li>
+                <li class="qw-advantage-item">
+                    <img src="/static/images/be_pretty/be_01_04.png">
+                </li>
+            </ul>
+        </div>
 
+        <!-- 四大需求 -->
+        <div class="qw-wrapper">
+            <img src="/static/images/be_pretty/c_04_05.png"></img>
+        </div>
 
-         <!-- 四大需求 -->
-           <div class="section7">
-		       <div class="adv-box7"></div>
-	      </div>
+        <!-- 服务流程 -->
+        <div class="qw-wrapper">
+            <div class="title5"></div>
+            <img src="/static/images/be_pretty/fwlc.jpg"></img>
+        </div>
 
-            <!-- 服务流程 -->
-           <div class="section5">
-		       <div class="title5"></div>
-		       <div class="adv-box"></div>
-	      </div>
-
-          <!-- 团队照片 -->
-           <div class="section6">
-		       <div class="title6"></div>
-		       <div class="adv-box6"></div>
-	      </div>
-           
-           {% block script %}
-               <script src="/static/js/services/be_pretty.js"></script>
-           {% endblock %}
-            
-   {% endblock %}
+        <!-- 团队照片 -->
+        <div class="qw-wrapper">
+            <div class="title6"></div>
+            <img src="/static/images/be_pretty/bg5.jpg"></img>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block script %}
+<script src="/static/js/services/be_pretty.js"></script> 
+{% endblock %} 

@@ -47,7 +47,7 @@ body{
 }
 .qw-not-single .qw-advantage-item{
 	float: left;
-	width: 33.3333%;
+	width: 25%;
 	height: 157px;
 	position: relative;
 }
@@ -217,7 +217,7 @@ body{
 	background: #fff;
 }
 .qw-not-single .qw-scheme-item-wrapper{
-	width: 254px;
+	width: 260px;
 	margin: auto;
 }
 .qw-not-single .qw-scheme-item-tt-pic{

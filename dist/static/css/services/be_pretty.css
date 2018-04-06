@@ -33,7 +33,7 @@ body{
 }
 .qw-advantage-item{
 	float: left;
-	width: 33.3333%;
+	width: 25%;
 	height: 179px;
 }
 .qw-advantage-item img{
@@ -177,6 +177,7 @@ body{
 	height: 52px;
 	margin: 0 auto;
 	background: url(../../images/be_pretty/c_02_00.png) no-repeat center;
+	margin-bottom: 40px;
 }
 
 .adv-box6{

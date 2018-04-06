@@ -1,8 +1,8 @@
 {% extends "./views/shard.njk" %}
 {%block css %}
-    <link rel="stylesheet" type="text/css" href="../static/css/services/marriage.css" />
-	<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./static/css/index233.css">
+    <link rel="stylesheet" href="/static/css/services/marriage.css">
+	{# <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/index233.css"> #}
 {% endblock %}
 {%block content%}
 <div class="qw-container qw-border-top">
@@ -13,22 +13,30 @@
         <div class="qw-marriage-view">
             <img src="../static/images/marriage/banner.png">
         </div>
-        <!-- 离婚统计 -->
+        <!-- 团队优势 -->
         <div class="qw-home-statistics">
             <div class="qw-wrapper">
                 <div class="qw-marriage-team">
                     <ul class="qw-home-team-list qw-clear">
                         <li class="qw-home-team-item">
-                            <div class="img"><img src="../static/images/marriage/c_01_01.png"></div>
-                           
+                            <div class="img">
+                                <img src="/static/images/marriage/c_01_01.png">
+                            </div>
                         </li>
                         <li class="qw-home-team-item">
-                            <div class="img"><img src="../static/images/marriage/c_01_02.png"></div>
-                           
+                            <div class="img">
+                                <img src="/static/images/marriage/c_01_02.png">
+                            </div>
                         </li>
                         <li class="qw-home-team-item">
-                            <div class="img"><img src="../static/images/marriage/c_01_03.png"></div>
-                            
+                            <div class="img">
+                                <img src="/static/images/marriage/c_01_03.png">
+                            </div>
+                        </li>
+                        <li class="qw-home-team-item">
+                            <div class="img">
+                                <img src="/static/images/marriage/c_01_04.png">
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -54,20 +62,21 @@
                             <li class="qw-action-item"><img src="../static/images/marriage/c_02_08.png"></li>
                         </ul>
                     </div>
-                    <div class="qw-action-list-control">
+                    {# <div class="qw-action-list-control">
                         <a class="qw-list-prev"><img src="../static/images/marriage/c_02_prev.png"></a>
                     </div>
                     <div class="qw-action-list-control">
                         <a class="qw-list-next"><img src="../static/images/marriage/c_02_next.png"></a>
-                    </div>
+                    </div> #}
                 </div>
             </div>
         </div>
         <!-- 出轨概率 -->
             
-           <div class="section6">
-		       <div class="adv-box6"></div>
-	      </div>
+        <div class="qw-wrapper">
+            <img src="/static/images/marriage/hyxh.png"></img>
+		    {# <div class="adv-box61"></div> #}
+	    </div>
         
         <!-- 出轨类型 -->
         <div class="qw-home-type-kind-column">
@@ -85,8 +94,4 @@
                 </div>
             </div>
         </div>
-       
-        
-       
-       <script src="../static/js/services/marriage.js"></script>
  {% endblock %}
