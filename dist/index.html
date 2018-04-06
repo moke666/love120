@@ -13,7 +13,8 @@
 	
 <link rel="stylesheet" type="text/css" href="./static/css/publicStyle.css" />
 <link rel="stylesheet" type="text/css" href="./static/css/style.css" />
-<link rel="stylesheet" type="text/css" href="./static/css/index233.css"> 
+<link rel="stylesheet" type="text/css" href="./static/css/index233.css">
+
 
 	<style>
         a.qrcode {
@@ -329,15 +330,20 @@
 		</div>
 		<div class="swiper-container">
         	<div class="swiper-wrapper">
-            	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt.png)"></div>
             	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt01.png)"></div>
             	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt02.png)"></div>
             	<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt03.png)"></div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt04.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt05.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt06.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt07.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt08.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt09.png)"></div>
+				<div class="swiper-slide" style="background-image:url(/static/images/index/wxlt10.png)"></div>
+        	</div>
+        	<!-- Add Pagination -->
+        	<div class="swiper-pagination"></div>
     	</div>
-		
 	</div>
 </div>
 
@@ -408,20 +414,21 @@
 <!--导师 部分 图片切换-->
 <script src="./static/js/lib/indexshow.js" type="text/javascript" charset="utf-8"></script> 
 <script>
- var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflow: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true
-        }
-});
+	var target = ["pic-01", "pic-02", "pic-03"];
+ 	var swiper = new Swiper('.swiper-container', {
+        	pagination: '.swiper-pagination',
+        	effect: 'coverflow',
+        	grabCursor: true,
+        	centeredSlides: true,
+        	slidesPerView: 'auto',
+        	coverflow: {
+            	rotate: 50,
+            	stretch: 0,
+            	depth: 100,
+            	modifier: 1,
+            	slideShadows : true
+        	}
+		});
 </script>
 
 <script type="text/javascript" src="index.js"></script></body>
