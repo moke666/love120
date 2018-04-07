@@ -448,3 +448,67 @@ body{
 	cursor: pointer;
 	color: #6227bc;
 }
+
+/* 收获好评 */
+.qw-home-good-head{
+	background: #fff;
+}
+.qw-home-good-head .qw-good-title{
+	width: 100%;
+	padding-top: 95px;
+}
+.qw-home-good-head .qw-good-title img{
+	display: block;
+	width: 479px;
+	height: 40px;
+	margin: auto;
+}
+.qw-home-good-middle{
+	width: 100%;
+	height: 444px;
+	margin-top: 60px;
+}
+.qw-home-good-middle .qw-middle-part{
+	position: relative;
+}
+.qw-home-good-middle .qw-middle-exploit{
+
+	height: 364px;
+
+}
+.qw-home-good-middle .qw-middle-exploit img{
+	width: 100%;
+	display: block;
+	height: 364px;
+	
+}
+.qw-home-good-middle .qw-middle-iphone{
+	width: 297px;
+	height: 688px;
+	display: block;
+	position: absolute;
+	top: -84px;
+	right: 34px;
+	overflow: hidden;
+	background: url(../../images/services/love/c_05_02_bg.png);
+}
+.qw-home-good-middle .qw-middle-iphone img{
+	width: 265px;
+	height: 473px;
+	display: block;
+	position: absolute;
+	top: 74px;
+	right: 16px;
+}
+.qw-home-good-middle .qw-middle-adorn{
+	width: 203px;
+	height: 588px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: -390px;
+}
+.qw-home-good-middle .qw-middle-adorn img{
+	width: 100%;
+	display: block;
+}
