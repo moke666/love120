@@ -5368,15 +5368,17 @@
 .qw-about .banner {
     width: 1120px;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 
 .qw-about .banner .view {
-    height: 369px;
+    height:581px;
     background: url('../images/ab_banner.png') no-repeat center;
+    margin-bottom: 50px;
 }
 
 .qw-about .banner p {
-    line-height: 30px;
+    line-height:40px;
     text-indent: 2em;
 }
 

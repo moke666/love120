@@ -106,7 +106,7 @@ honerArray1[3]=honer4;
 
 //
 var honer1="国家一级婚姻家庭咨询师；";
-var honer2="国家三级婚姻情感咨询师";
+var honer2="国家三级婚姻家庭咨询师";
 var honer3="中国高级婚姻家庭教育指导师";
 var honer4="国家二级心理咨询师";
 
